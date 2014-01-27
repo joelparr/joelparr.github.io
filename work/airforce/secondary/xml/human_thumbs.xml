@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<entry>
+		<title>Air Deliveries</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>air-deliveries</pagePath>
+		<imgPath>img/human_thumb_deliveries.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>CCAT</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>CCAT</pagePath>
+		<imgPath>img/human_thumb_CCAT.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>ECMO</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>ECMO</pagePath>
+		<imgPath>img/human_thumb_ECMO.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>Communications</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>communications</pagePath>
+		<imgPath>img/human_thumb_comms.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>Goodwill</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>goodwill</pagePath>
+		<imgPath>img/human_thumb_goodwill.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>Fire Response</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>fire-response</pagePath>
+		<imgPath>img/human_thumb_fire.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+	<entry>
+		<title>Rescue</title>
+		<lede>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, felis.</lede>
+		<pagePath>rescue</pagePath>
+		<imgPath>img/human_thumb_rescue.jpg</imgPath>
+		<vidPath>../vids/human_rescue3D.mp4</vidPath>
+		<posterPath>img/human_rescue3D_poster.jpg</posterPath>		
+		<copy><![CDATA[<p>Leberkäse meatloaf short loin, pastrami corned beef ball tip chicken biltong meatball. Frankfurter biltong shank pork loin drumstick pork. Strip steak pork belly frankfurter chuck leberkäse, sausage pork pastrami capicola. Flank meatball ham hock shankle ground round, short loin shoulder kielbasa. Ball tip short ribs pig, venison bresaola ham hock shankle filet mignon chicken beef pork chop ground round. T-bone venison sirloin strip steak bresaola ham hock. Swine andouille short loin pork tenderloin pork chop.</p>]]></copy>
+		<trackingURL>http://view.atdmt.com/action/astbrl_GeneralIntroductionPage_1</trackingURL>
+		<gallery>
+			<galleryThumbnail type="video">
+				<caption>Meet Capt. Lauren Ross</caption>
+				<link poster="img/human_rescue3D_poster.jpg" tooltip="Click to view this video">../vids/human_rescue3D.mp4</link>
+				<img altText="humbnail image alt text">img/human_overlay_thumb1.jpg</img>
+			</galleryThumbnail>
+			<galleryThumbnail type="image">
+				<caption>Image description</caption>
+				<link tooltip="Click to view this image">img/human_overlay_large2.jpg</link>
+				<img altText="Thumbnail image alt text">img/human_overlay_thumb2.jpg</img>
+			</galleryThumbnail>
+		</gallery>
+	</entry>
+</data>

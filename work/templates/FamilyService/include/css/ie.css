@@ -1,0 +1,4 @@
+/* IE specific fixes */
+
+/* Form fixes */
+div.form-inline input.button { position: relative; top: -6px; }

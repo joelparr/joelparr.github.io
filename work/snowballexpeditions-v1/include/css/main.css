@@ -1,0 +1,608 @@
+﻿/*
+	Snowball Expeditions
+	--------------------
+	File:		main.css
+	Created:	18th February 2009
+	Author:		Joel Parr
+	
+	Typography
+	----------
+	Sans-Serif (Main Body):	Helvetica Neue, Helvetica, Verdana, Arial, sans-serif
+							
+	Logo:					Tahoma, sans-serif
+	
+	Colors
+	------
+	Body BG:				#eee
+	Top Nav BG:				#fff
+	Top Nav Tab:			#fafafa
+	Top Nav Tab Selected:	#eee
+	Body Headings:			#bbb
+	Main Body BG:			#fff
+	Sidebar BG:				#f2f2f2
+	Footer BG:				#bbb
+	
+	Top Nav Text:			#707070
+	Photobox Text:			#2f2f2f
+	Product box Text:		#fff
+	Heading Box Text:		#fff
+	Heading Box Sub Text:	#eee
+	Body Header Text:		#3e3e3e
+	Body Subheader Text:	#656565
+	Body Text:				#3e3e3e
+	Footer Text:			#fff
+	Footer Link BG:			#999
+	Footer Link Hover BG:	#2f2f2f
+	Footer Heading Text:	#fff
+	Footer Subheading Text:	#eee
+*/
+
+/* 
+	Generic Styles
+	--------------
+*/
+
+body 
+{
+    /*background: #eee url('../../images/grid.png') no-repeat left top; */
+    background: #eee;
+    color: #2c2c2c; 
+	font: normal 0.75em "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	margin: 0; padding: 0; 
+	text-align: center;
+}
+
+h1
+{
+	color: #3e3e3e; 
+	font-size: 1.4em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+h2
+{
+	color: #3e3e3e; 
+	font-size: 1.3em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+h3
+{
+	color: #3e3e3e; 
+	font-size: 1.2em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+h4
+{
+	color: #3e3e3e; 
+	font-size: 1.2em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+h5
+{
+	color: #3e3e3e; 
+	font-size: 1.1em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+h6
+{
+	color: #3e3e3e; 
+	font-size: 1.1em; 
+    margin: 0; padding: 0 0 4px 0;
+}
+
+p
+{
+	color: #3e3e3e; 
+	font-size: 1em; 
+    margin: 0; padding: 0 0 2px 0;	
+}
+
+a, a:active, a:visited
+{
+	color: #3e3e3e; 
+	text-decoration: underline;
+}
+	a:hover { background: #999 }
+	
+fieldset
+{
+	padding: 5px 0;
+}
+
+input.textfield
+{
+	background: #eee;
+	border: none;
+	color: #3e3e3e;
+	font-size: 0.8em;
+	padding: 5px 6px;
+	vertical-align: middle;
+}
+
+input.button
+{
+	background: #999;
+	border: none;
+	color: #fff;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	font-size: 1em; font-weight: 100;
+	margin: 0 0 0 10px;
+	padding: 2px 6px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+/* 
+	Layout Styles
+	-------------
+
+	Container to hold all content
+	- Centered
+*/
+
+div#container
+{
+	margin: 0 auto;
+	padding: 4px 0;
+	text-align: left;
+	width: 925px;
+}
+
+/* 
+	Top navigation area:
+	- Width: 875px
+*/
+
+div#top-navigation
+{
+	background: #fff;
+	border: 1px solid #bbb;
+	float: left;
+	margin: 0 25px 4px 12px;
+	padding: 10px;
+	width: 853px;
+}
+div#container > div#top-navigation { margin-left: 25px; }
+
+	/* Site logo */
+
+	div#top-navigation h1 { float: left; padding: 0; }
+	
+		div#top-navigation h1 a
+		{
+			background: #fff url('../../images/logo.png') no-repeat left top; 
+			display: block;
+			height: 42px; width: 278px; 
+			text-indent: -5000px;
+		}
+
+	/* Navigation list */
+
+	div#top-navigation ul
+	{
+		display: block; 
+		float: right;
+		list-style: none; 
+		margin: 0; padding: 0;
+	}
+	
+		div#top-navigation li { display: inline; float: left; }
+		
+			div#top-navigation li a
+			{
+				background-color: #fafafa;
+				border: 1px solid #bbb;
+				color: #707070;
+				display: block;
+				margin: 0 0 0 4px;
+				padding: 2px 4px; 
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			div#top-navigation li a:hover { background-color: #eee; }
+				
+			div#top-navigation li a.selected { background-color: #eee; }
+			div#top-navigation li a.selected:hover 
+			{ 
+				background-color: #bbb; 
+				color: #fafafa; 
+			}
+			
+			div#top-navigation li ul 
+			{
+				left: -999em;
+				position: absolute;
+				width: 15em;
+				z-index: 10;
+				padding-top: 3px;
+			}
+			
+			div#top-navigation li ul li	{ float: none; }
+			
+			div#top-navigation li ul li a { margin-top: -1px; width: 15em; }
+
+			div#top-navigation li:hover ul { left: auto; }
+			
+			div#top-navigation li:hover ul, div#top-navigation li.sfhover ul { left: auto; }
+
+/* 
+	Main content area:
+	- Width: 925px
+	- BG image provides gradient of 25px each side
+*/
+
+div#main-content
+{
+	background: transparent url('../../images/container-bg.png') repeat-y 1px top; 
+	float: left;
+	padding: 0 25px;
+	width: 925px;
+}
+		
+	/* 
+		Photobox - top of main content area:
+		- Width: 875px
+		- Height: 364px
+	*/
+		
+	div#main-content div#photobox
+	{
+		float: left;
+		position: relative;
+		height: 364px;
+		width: 875px;
+	}
+	
+		div#photobox-pics img
+		{
+			border: none;
+			height: 364px;
+			width: 875px;
+		}
+	
+		div#photobox div#caption
+		{
+			background: transparent url('../../images/photoheader-textbg.png') no-repeat left top; 
+			behavior: url('include/js/iepngfix.htc'); /*IE6*/
+			position: absolute;
+			left: 0; top: 294px;
+			padding: 12px 15px;
+			height: 46px;
+			width: 845px;
+			z-index: 10;
+		}
+		
+			div#photobox div#caption h2, div#photobox div#caption p
+			{
+				display: inline;
+				font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+				font-size: 1.1em; font-weight: 100;
+				letter-spacing: 0.04em;
+				padding: 0; 
+			}
+			
+			div#photobox div#caption h2 { font-weight: 400; }
+
+	/* 
+		Product boxes:
+		- Width: 290px
+	*/
+
+	div#main-content div.productbox
+	{
+		float: left;
+		margin: 6px 0 0 4px;
+		height: 282px;
+		width: 284px;
+	}
+	div#main-content > div.productbox { margin-left: 6px; }
+	
+		div#sled-expedition
+		{ background: transparent url('../../images/product-bg-sled.jpg') no-repeat left top; }
+		div#arctic-expedition
+		{ background: transparent url('../../images/product-bg-arctic.jpg') no-repeat left top; }
+		div#everest-expedition
+		{ background: transparent url('../../images/product-bg-everest.jpg') no-repeat left top; }
+		
+		div#main-content div.productbox h3
+		{
+			color: #fff;
+			font-size: 1.1em; font-weight: 100;
+			display: block;
+			line-height: 1.05em;
+			padding: 2px 4px;
+			height: 29px;
+			width: 276px;
+			text-align: right;
+			text-transform: uppercase;
+		}
+		
+			div#main-content div.productbox h3 { behavior: url('include/js/iepngfix.htc'); }
+		
+			div#sled-expedition h3
+			{ background: transparent url('../../images/product-textbg-sled.png') no-repeat left top; }
+			div#arctic-expedition h3
+			{ background: transparent url('../../images/product-textbg-arctic.png') no-repeat left top; }
+			div#everest-expedition h3
+			{ background: transparent url('../../images/product-textbg-everest.png') no-repeat left top; }
+			
+			div#main-content div.productbox h3 a
+			{
+				color: #fff;
+				font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+				font-size: 0.9em; font-weight: 100;
+				text-decoration: none;
+				text-transform: none;
+			}
+			div#main-content div.productbox h3 a:hover { background: none;color: #3e3e3e; }
+	
+	/* 
+		Main content text area:
+		- Left column: 580px
+		- Sidebar: 290px
+	*/
+	
+	div#main-content div#content-left
+	{
+		float: left;
+		margin: 6px 0 0 4px;
+		width: 574px;
+	}
+	div#main-content > div#content-left { margin-left: 6px; }
+	
+	div#main-content div#sidebar
+	{
+		float: left;
+		margin: 6px 0 0 2px;
+		width: 284px;
+	}
+	div#main-content > div#sidebar { margin-left: 6px; }
+	
+		div#main-content h4 
+		{ 
+			background: #bbb;
+			color: #fff;
+			display: block;
+			font-size: 1.3em; font-weight: 300;
+			line-height: 1.05em;
+			padding: 12px 15px;
+			text-transform: uppercase;
+		}
+		
+			div#main-content h4 span 
+			{
+				color: #eee;
+				display: block;
+				font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+				font-size: 0.9em; font-weight: 100;
+				text-transform: none;
+			}
+		
+			div#main-content div#content-left h4 { height: 31px; width: 542px; }
+			div#main-content > div#content-left h4 { width: 544px; }
+			div#main-content div#sidebar h4 { height: 31px; width: 254px; }
+			
+		div#content-left div.blogpost
+		{
+			margin: 20px 20px 10px 15px;
+		}
+		
+			div.blogpost h5
+			{	
+				clear: both;
+				color: #3e3e3e; 
+				font-size: 1.2em;
+				line-height: 1.1em;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			
+				div.blogpost h5 span 
+				{
+					color: #656565;
+					display: block;
+					font-size: 0.9em; font-weight: 100;
+					text-transform: none;
+				}
+
+				div.blogpost p { margin: 10px 0; }
+				
+					div.blogpost p.readmore { text-align: right; }
+					
+						div.blogpost p.readmore a
+						{
+							background: #eee;
+							padding: 2px 4px;
+							text-decoration: none;
+						}
+						div.blogpost p.readmore a:hover	{ color: #fff; background: #2f2f2f; }
+				
+				div.blogpost img
+				{
+					border: 0;
+					display: block;
+					float: left;
+					margin: 10px 20px 0 0;
+				}
+		
+		div#sidebar div#sidebar-content
+		{
+			float: left;
+			background: #f2f2f2;
+			margin: 6px 0;
+			padding: 15px 12px 15px 15px;
+		}				
+			
+			div#sidebar-content	a#flickr-link
+			{
+				display: block;
+				text-indent: -5000px;
+				background: transparent url('../../images/sidebar-logo-flickr.png') no-repeat left top; 
+				height: 30px; width: 95px;
+			}
+			
+			div#flickr_badge_uber_wrapper { float: left; width:254px; padding: 5px 0 15px 0; }
+			div#sidebar-content > div#flickr_badge_uber_wrapper { width:250px; }
+			div.flickr_badge_image { margin: 4px; float: left; }
+			div#flickr_badge_uber_wrapper a:link, div#flickr_badge_uber_wrapper a:hover, div#flickr_badge_uber_wrapper a:active 
+			{ text-decoration: none; background: none; }
+			
+			div#sidebar-content	a#vimeo-link
+			{
+				float: left;
+				display: block;
+				text-indent: -5000px;
+				background: transparent url('../../images/sidebar-logo-vimeo.png') no-repeat left top; 
+				height: 30px; width: 95px;
+			}
+			div#sidebar-content	a#youtube-link
+			{
+				float: left;
+				display: block;
+				text-indent: -5000px;
+				background: transparent url('../../images/sidebar-logo-youtube.png') no-repeat left 2px; 
+				behavior: url('include/js/iepngfix.htc'); /*IE6*/
+				margin-left: 10px;
+				height: 32px; width: 78px;
+			}
+			
+			div#sidebar-content a#videolink1, div#sidebar-content a#videolink2
+			{
+				display: block;
+				float: left;
+				margin: 5px 10px 20px 0;
+				text-indent: -5000px;
+				background: transparent url('../../images/sidebar-video1.jpg') no-repeat left top; 
+				height: 58px; width: 101px;
+			}
+			div#sidebar-content a#videolink2
+			{ background: transparent url('../../images/sidebar-video2.jpg') no-repeat left top; }
+			
+			div#sidebar-content	a#facebook-link
+			{
+				display: block;
+				float: left;
+				background: transparent url('../../images/sidebar-logo-facebook.png') no-repeat left top; 
+				font-size: 0.8em;
+				margin-right: -5px;
+				padding: 6px 0 0 110px;
+				height: 29px; width: 150px;
+				text-decoration: none;
+			}
+			
+/* 
+	Footer:
+	- Width: 925px
+	- BG image provides gradient of 25px each side
+*/
+
+div#footer
+{
+	background: transparent url('../../images/footer-bg.png') repeat-y 1px top; 
+	clear: both;
+	float: left;
+	padding: 0 25px;
+	height: 110px;
+	width: 925px;
+}
+
+	div#footer div#footer-left
+	{
+		float: left;
+		margin: 0 0 0 15px;
+		padding: 15px 0 0 0;
+	}
+	
+		div#footer-left h6
+		{
+			background: #bbb url('../../images/footer-logo.png') no-repeat left top; 
+			display: block;
+			height: 40px; width: 310px; 
+			text-indent: -5000px;
+		}
+		
+		div#footer-left ul 
+		{ 
+			list-style: none; 
+			margin: 10px 0 0 5px;
+		}
+		
+			div#footer-left li { color: #fff; display: inline; }
+			
+			div#footer-left a 
+			{ 
+				background: #999;
+				color: #fff;
+				font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+				font-size: 1em; font-weight: 100;
+				padding: 2px 4px;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			div#footer-left a:hover { background: #2f2f2f; }
+	
+	div#footer ul#footer-middle
+	{
+		float: left;
+		list-style: none;
+		margin: 0 0 0 55px;
+		padding: 8px 0 0 0;
+		width: 200px;
+	}
+		
+		ul#footer-middle li { display: inline; }
+		
+			ul#footer-middle li a
+			{
+				display: block;
+				float: left; 
+				text-indent: -5000px;
+				height: 50px;
+				width: 80px;
+			}
+			
+			ul#footer-middle li a#logo-cruk
+			{ background: transparent url('../../images/footer-logo-cruk.png') no-repeat left top; }
+			ul#footer-middle li a#logo-cruk:hover { background-position: left -51px; }
+			ul#footer-middle li a#logo-msr
+			{ background: transparent url('../../images/footer-logo-msr.png') no-repeat left top; }
+			ul#footer-middle li a#logo-msr:hover { background-position: left -50px; }
+			ul#footer-middle li a#logo-rab
+			{ background: transparent url('../../images/footer-logo-rab.png') no-repeat left top; }
+			ul#footer-middle li a#logo-rab:hover { background-position: left -49px; }
+			ul#footer-middle li a#logo-wwf
+			{ background: transparent url('../../images/footer-logo-wwf.png') no-repeat left top; }
+			ul#footer-middle li a#logo-wwf:hover { background-position: left -50px; }
+			
+	div#footer div#footer-right
+	{
+		float: left;
+		padding: 20px 0 0 0;
+	}
+	
+		div#footer div#footer-right input.textfield
+		{
+			width: 130px;
+		}
+	
+		div#footer div#footer-right h5
+		{
+			color: #fff;
+			font-size: 1.3em; font-weight: 300;
+			line-height: 1.05em;
+			padding: 0 0 8px 0;
+			text-transform: uppercase;
+		}
+		
+			div#footer div#footer-right h5 span 
+			{
+				color: #eee;
+				display: block;
+				font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+				font-size: 0.8em; font-weight: 100;
+				text-transform: none;
+			}

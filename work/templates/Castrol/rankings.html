@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="include/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="include/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="include/css/colorbox.css" media="screen" />
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="include/js/ie.js"></script>
+    <link rel="stylesheet" type="text/css" href="include/css/ie.css" media="screen" />
+	<![endif]-->
+    <script type="text/javascript" src="include/js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="include/js/jquery-ui-1.7.1.custom.min.js"></script>
+    <script type="text/javascript" src="include/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="include/js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <title>Castrol Driver Rankings - Rankings Tables - Powered by Autosport.com</title>
+</head>
+<body class="content">
+    <div id="container">
+    	<!-- Header logo links -->
+    	<div id="header">
+    		<a href="#" id="main-logo" title="Link to Castrol Driver Rankings Homepage">Castrol Driver Rankings</a>
+    		<a href="#" id="secondary-logo" title="Link to Autosport.com">Powered by Autosport.com</a>
+    	</div>
+    	<div id="main-content">
+    		<!-- Top navigation - inc nav menu and search bar -->
+    		<div id="navigation-top">
+    			<ul id="navigation-top-menu">
+    				<li><a href="index.html">Home</a></li>
+    				<li class="current">
+    					<a href="rankings/index.html">Rankings</a>
+    					<ul>
+		    				<li><a href="rankings.html">Rankings Tables</a></li>
+		    				<li><a href="championship.html">Championship Tables</a></li>
+		    				<li><a href="calendars.html">Calendars</a></li>
+		    				<li><a href="results.html">Race Results</a></li>
+    					</ul>
+    				</li>
+    				<li>
+    					<a href="news/index.html">News</a>
+    					<ul>
+		    				<li><a href="news-article.html">Latest News</a></li>
+		    				<li><a href="news-archive.html">Archive</a></li>
+    					</ul>
+    				</li>
+    				<li><a href="edge-potm.html">Performer of the Month</a></li>
+    				<li><a href="head-to-head.html">Head to Head</a></li>
+    				<li>
+    					<a href="how-it-works.html">How it Works</a>
+    					<ul>
+    						<li><a href="faq.html">FAQ</a></li>
+    					</ul>
+    				</li>
+    				<li>
+    					<a href="newsletter/index.html">Newsletter</a>
+    					<ul>
+    						<li><a href="newsletter/signup.html">Sign Up</a></li>
+    					</ul>
+    				</li>
+    			</ul>
+				<form id="form-search" action="#" method="post" class="form-inline">
+					<fieldset>
+						<label class="accessibility" for="search-terms">Search the site:</label>
+						<input id="search-terms" type="text" name="search-terms" value="Search" class="field toggle-blank" />
+						<input name="submit-search" type="submit" value="&raquo;" class="button" />
+					</fieldset>
+				</form>
+    		</div>
+    		<!-- Main page content container -->
+    		<div id="content">
+    			<div class="column flush small">
+    				<div id="navigation-side">
+    					<h2>Rankings</h2>
+    					<ul id="navigation-side-menu">
+		    				<li class="current"><a href="rankings.html">Rankings Tables</a></li>
+		    				<li><a href="championship.html">Championship Tables</a></li>
+		    				<li><a href="calendars.html">Calendars</a></li>
+		    				<li><a href="results.html">Race Results</a></li>
+    					</ul>
+    				</div>
+    				
+    				<div class="side-block">
+    					<img src="images/photos/cp-small-1.jpg" alt="Image of pit-lane staff at F1 race" />
+	    				<div class="overlay-banner">
+		    				<h4><a href="#" class="howitworks" title="Link to How it works">How it works</a></h4>
+	    					<p><a href="#" title="Link to driver ranking calculations">Find out how we 
+	    					calculate the driver rankings</a></p>
+	    				</div>
+    				</div>
+    				
+    				<div class="side-block edge-captioned">
+    					<img src="images/photos/cp-small-2-alt.jpg" alt="Image of F1 driver" />
+						<h4><a href="#" title="Link to Performer of the Month">Performer of the Month</a></h4>
+    				</div>
+    				
+	    			<a href="http://www.facebook.com" class="facebook-link" title="Link to Join our Facebook Group">Join our group</a>
+	    			<a href="http://www.twitter.com" class="twitter-link" title="Link to Follow us on Twitter">Follow us</a>
+    			</div>
+    			
+    			<div class="column large">
+					<div class="content-block large-alt open">
+						<h1 class="caption" title="Castrol Driver Rankings"><span class="driver-rankings">Driver Rankings</span></h1>
+						<form id="form-filter" action="#" method="post" class="form-inline">
+							<table>
+								<thead>
+									<tr>
+										<th class="center">Rank</th>
+										<th>&nbsp;</th>
+										<th colspan="2" class="colspan-line">Driver
+											<div class="right">
+												<select id="select-nationality" name="select-nationality" class="field compact">
+													<option>Nationality</option>
+													<option value="GB">Great Britain</option>
+												</select>
+											</div>
+										</th>
+										<th>
+											<select id="select-series" name="select-series" class="field">
+												<option>Series</option>
+												<option value="F1">F1</option>
+											</select>
+											<input name="reset-filter" type="reset" value="Reset" class="button-blank" />
+										</th>
+										<th class="edge-r">Points</th>
+									</tr>
+								</thead>
+								<tr>
+									<td class="center">1</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="driver-profile.html" title="Link to Profile for Jenson Button">Jenson Button</a></td>
+									<td><img src="images/flags/gb.gif" alt="Image of British flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r"><a href="ajax-points.html" class="secondary colorbox">21,992</a></td>
+								</tr>
+								<tr class="alt">
+									<td class="center">2</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Ryan Briscoe">Ryan Briscoe</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, Rolex</a></td>
+									<td class="edge-r"><a href="ajax-points.html" class="secondary colorbox">20,385</a></td>
+								</tr>
+								<tr>
+									<td class="center">3</td>
+									<td class="icon up"><span>&uarr;</span> 1</td>
+									<td><a href="#" title="Link to Profile for Sebastian Vettel">Sebastian Vettel</a></td>
+									<td><img src="images/flags/de.gif" alt="Image of German flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">20,275</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">4</td>
+									<td class="icon down"><span>&darr;</span> 2</td>
+									<td><a href="#" title="Link to Profile for Sébastian Loeb">Sébastian Loeb</a></td>
+									<td><img src="images/flags/fr.gif" alt="Image of French flag" /></td>
+									<td class="light"><a href="#" class="secondary">WRC</a></td>
+									<td class="edge-r">19,921</td>
+								</tr>
+								<tr>
+									<td class="center">5</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Dario Franchitti">Dario Franchitti</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, ALMS</a></td>
+									<td class="edge-r">19,416</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">6</td>
+									<td class="icon newentry"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Scott Dixon">Scott Dixon</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, ALMS</a></td>
+									<td class="edge-r">19,192</td>
+								</tr>
+								<tr>
+									<td class="center">7</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Rubens Barichello">Rubens Barichello</a></td>
+									<td><img src="images/flags/br.gif" alt="Image of Brazilian flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">18,866</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">8</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Jimmie Johnson">Jimmie Johnson</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">Sprint Cup</a></td>
+									<td class="edge-r">18,457</td>
+								</tr>
+								<tr>
+									<td class="center">9</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Mark Webber">Mark Webber</a></td>
+									<td><img src="images/flags/au.gif" alt="Image of Australian flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">17,559</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">10</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Mikko Hirvonen">Mikko Hirvonen</a></td>
+									<td><img src="images/flags/fi.gif" alt="Image of Finnish flag" /></td>
+									<td class="light"><a href="#" class="secondary">WRC</a></td>
+									<td class="edge-r">17,150</td>
+								</tr>
+								<tr>
+									<td class="center">11</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Jenson Button">Jenson Button</a></td>
+									<td><img src="images/flags/gb.gif" alt="Image of British flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">21,992</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">12</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Ryan Briscoe">Ryan Briscoe</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, Rolex</a></td>
+									<td class="edge-r">20,385</td>
+								</tr>
+								<tr>
+									<td class="center">13</td>
+									<td class="icon up"><span>&uarr;</span> 1</td>
+									<td><a href="#" title="Link to Profile for Sebastian Vettel">Sebastian Vettel</a></td>
+									<td><img src="images/flags/de.gif" alt="Image of German flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">20,275</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">14</td>
+									<td class="icon down"><span>&darr;</span> 2</td>
+									<td><a href="#" title="Link to Profile for Sébastian Loeb">Sébastian Loeb</a></td>
+									<td><img src="images/flags/fr.gif" alt="Image of French flag" /></td>
+									<td class="light"><a href="#" class="secondary">WRC</a></td>
+									<td class="edge-r">19,921</td>
+								</tr>
+								<tr>
+									<td class="center">15</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Dario Franchitti">Dario Franchitti</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, ALMS</a></td>
+									<td class="edge-r">19,416</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">16</td>
+									<td class="icon newentry"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Scott Dixon">Scott Dixon</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">IRL, ALMS</a></td>
+									<td class="edge-r">19,192</td>
+								</tr>
+								<tr>
+									<td class="center">17</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Rubens Barichello">Rubens Barichello</a></td>
+									<td><img src="images/flags/br.gif" alt="Image of Brazilian flag" /></td>
+									<td class="light"><a href="#" class="secondary">F1</a></td>
+									<td class="edge-r">18,866</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">18</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Jimmie Johnson">Jimmie Johnson</a></td>
+									<td><img src="images/flags/us.gif" alt="Image of American flag" /></td>
+									<td class="light"><a href="#" class="secondary">Sprint Cup</a></td>
+									<td class="edge-r">18,457</td>
+								</tr>
+								<tr>
+									<td class="center">19</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Mark Webber">Mark Webber</a></td>
+									<td><img src="images/flags/au.gif" alt="Image of Australian flag" /></td>
+									<td class="light"><a href="#" class="secondary">Sprint Cup, Nationwide, Camping World</a></td>
+									<td class="edge-r">17,559</td>
+								</tr>
+								<tr class="alt">
+									<td class="center">20</td>
+									<td class="icon nochange"><span>&harr;</span></td>
+									<td><a href="#" title="Link to Profile for Mikko Hirvonen">Mikko Hirvonen</a></td>
+									<td><img src="images/flags/fi.gif" alt="Image of Finnish flag" /></td>
+									<td class="light"><a href="#" class="secondary">WRC</a></td>
+									<td class="edge-r">17,150</td>
+								</tr>
+							</table>
+						</form>
+						<ul class="more-links">
+							<li><a href="#" class="more-link segment" title="Link to Last Week">Last Week</a></li>
+							<li><a href="#" class="more-link" title="Link to Series Leaders">Series Leaders</a></li>
+						</ul>
+						<ul class="pager">
+							<li><a href="#" class="pager-link pager-segment" title="Link to Previous 20">Previous 20</a></li>
+							<li><a href="#" class="pager-link" title="Link to Next 20">Next 20</a></li>
+						</ul>
+					</div>
+					
+					<div class="content-block medium open first extra-pad">
+						<h1 class="caption" title="Castrol Nations"><a href="#" class="nation-rankings" title="Link to Full Nations Rankings">Nations</a></h1>
+						<table>
+							<tr>
+								<td>1</td>
+								<td class="icon nochange"><span>&harr;</span></td>
+								<td><img src="images/flags/us.gif" alt="Image of American flag" /> 
+								<a href="#" title="Link to Profile for USA">USA</a></td>
+								<td class="edge-r">21,992</td>
+							</tr>
+							<tr class="alt">
+								<td>2</td>
+								<td class="icon nochange"><span>&harr;</span></td>
+								<td><img src="images/flags/de.gif" alt="Image of German flag" /> 
+								<a href="#" title="Link to Profile for Germany">Germany</a></td>
+								<td class="edge-r">20,385</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td class="icon up"><span>&uarr;</span> 1</td>
+								<td><img src="images/flags/gb.gif" alt="Image of British flag" />
+								<a href="#" title="Link to Profile for Great Britain">Great Britain</a></td>
+								<td class="edge-r">20,275</td>
+							</tr>
+							<tr class="alt">
+								<td>4</td>
+								<td class="icon down"><span>&darr;</span> 2</td>
+								<td><img src="images/flags/fi.gif" alt="Image of Finnish flag" /> 
+								<a href="#" title="Link to Profile for Finland">Finland</a></td>
+								<td class="edge-r">19,921</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td class="icon nochange"><span>&harr;</span></td>
+								<td><img src="images/flags/es.gif" alt="Image of Spanish flag" /> 
+								<a href="#" title="Link to Profile for Spain">Spain</a></td>
+								<td class="edge-r">19,416</td>
+							</tr>
+						</table>
+						<ul class="more-links">
+							<li><a href="#" class="more-link segment" title="Link to Last Week">Last Week</a></li>
+							<li><a href="#" class="more-link" title="Link to Full Nation Rankings">Full Nation Rankings</a></li>
+						</ul>
+					</div>
+					
+					<div class="content-block medium open last extra-pad">
+						<h1 class="caption" title="Castrol Series Leaders"><a href="#" class="series-leaders" title="Link to Full Series Leaders">Series Leaders</a></h1>
+						<table>
+							<tr>
+								<td>1</td>
+								<td class="icon nochange"><span>&harr;</span></td>
+								<td><a href="#" title="Link to Profile for Jenson Button">Jenson Button</a></td>
+								<td class="light">F1</td>
+								<td class="edge-r">21,992</td>
+							</tr>
+							<tr class="alt">
+								<td>2</td>
+								<td class="icon up"><span>&harr;</span> 1</td>
+								<td><a href="#" title="Link to Profile for Ryan Briscoe">Ryan Briscoe</a></td>
+								<td class="light">IRL</td>
+								<td class="edge-r">19,866</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td class="icon down"><span>&darr;</span> 1</td>
+								<td><a href="#" title="Link to Profile for Sébastian Loeb">Sébastian Loeb</a></td>
+								<td class="light">WRC</td>
+								<td class="edge-r">16,554</td>
+							</tr>
+							<tr class="alt">
+								<td>4</td>
+								<td class="icon down"><span>&darr;</span> 2</td>
+								<td><a href="#" title="Link to Profile for Jimmie Johnson">Jimmie Johnson</a></td>
+								<td class="light">Sprint Cup</td>
+								<td class="edge-r">15,482</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td class="icon up"><span>&harr;</span> 3</td>
+								<td><a href="#" title="Link to Profile for Nico Hulkenberg">Nico Hulkenberg</a></td>
+								<td class="light">GP2</td>
+								<td class="edge-r">14,665</td>
+							</tr>
+						</table>
+						<ul class="more-links">
+							<li><a href="#" class="more-link segment" title="Link to Last Week">Last Week</a></li>
+							<li><a href="#" class="more-link last" title="Link to Full Series Leaders">Full Series Leaders</a></li>
+						</ul>
+					</div>
+    			</div>
+    			
+    			<div class="column small">
+    				<div class="side-search-block">
+    					<h5><span>Driver Search</span></h5>
+						<form id="form-side-search" action="#" method="post" class="form-inline compact">
+							<fieldset>
+								<input id="side-search-terms" type="text" name="search-terms" value="" class="field" />
+								<input name="submit-search" type="submit" value="&raquo;" class="button" />
+							</fieldset>
+						</form>
+					</div>
+					
+					<ul class="side-blocks-list">
+						<li>
+							<img src="images/photos/cp-medium-1.jpg" alt="Image of F1 car in the wet" />
+							<h3><a href="#" title="Link to News: Race for top spot">Race for top spot heats up</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Integer blandit sem sit amet.</p>
+						</li>
+						<li>
+							<img src="images/photos/cp-medium-2.jpg" alt="Image of F1 cars" />
+							<h3><a href="#" title="Link to News: Rosberg &amp; Rubens">Rosberg &amp; Rubens switch seats</a></h3>
+						</li>
+						<li>
+							<img src="images/photos/cp-medium-3.jpg" alt="Image of podium celebrations" />
+							<h3><a href="#" title="Link to News: Briscoe second">Briscoe second after Kentucky win</a></h3>
+						</li>
+						<li>
+							<img src="images/photos/cp-medium-4.jpg" alt="Image of rally cars" />
+							<h3><a href="#" title="Link to News: Six in a row for Loeb">Six in a row for dominant Loeb</a></h3>
+						</li>
+					</ul>
+    			</div>
+    		</div>
+    		<!-- Footer top bar - inc country selector and external link -->
+			<div id="footer-top">
+				<form id="form-country-selector" action="/" method="post" class="form-inline">
+					<fieldset>
+						<label for="select-country">Find out more about Castrol's world class lubricants 
+						on your local country site:</label>
+						<select id="select-country" name="select-country" class="field">
+							<option>Choose country</option>
+							<option value="UK">United Kingdom</option>
+						</select>
+						<input name="submit-country" type="submit" value="&raquo;" class="button" />
+					</fieldset>
+				</form>
+				<a id="external-link" href="#" title="Link to Castrol Football Homepage">Castrol Football - Home of the Castrol Index</a>
+			</div>
+			<!-- Footer bottom bar - inc copyright and bottom nav menu -->
+			<div id="footer-bottom">
+				<p>&copy; Castrol Limited 1999-2009 | All content &copy; Autosport.com 2009</p>
+				<ul id="navigation-bottom-menu">
+					<li><a href="terms-and-conditions.html">Terms &amp; Conditions</a> |</li>
+					<li><a href="privacy.html">Privacy Statement</a> |</li>
+					<li><a href="legal.html">Legal Notice</a> |</li>
+					<li><a href="site-map.html">Site Map</a></li>
+				</ul>
+			</div>
+    	</div>
+    </div>
+</body>
+</html>
