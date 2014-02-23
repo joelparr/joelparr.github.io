@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Default base styles: opinionated defaults
+   ========================================================================== */
+
+// Screen size breakpoints
+$bp-small: 320px;
+$bp-medium: 768px;
+$bp-large: 1024px;
+
+// Universal font size - used for REM calc
+$base-font-size-small: 13px;
+$base-font-size-medium: 16px;
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #22404B;
+}
+
+html {
+    font-size: $base-font-size-small;
+    line-height: 1.4;
+
+    @media only screen and (min-width: $bp-medium) 
+    { 
+        font-size: $base-font-size-medium;
+    }
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: $tertiary;
+    text-shadow: none;
+}
+
+::selection {
+    background: $secondary;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $tertiary;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}

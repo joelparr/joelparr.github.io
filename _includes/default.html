@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.description }}</title>
+        {% if site.tagline %}<meta name="description" content="{{ site.tagline }}">{% endif %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="{{ site.author.name }}">
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/main.css">
+        <script src="{{ ASSET_PATH }}/js/vendor/modernizr-2.6.2.min.js"></script>
+		<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" rel="alternate" 
+			title="Sitewide ATOM Feed" type="application/atom+xml">
+		<link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" rel="alternate" 
+			title="Sitewide RSS Feed" type="application/rss+xml">
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic|Montserrat:400,700" 
+			rel="stylesheet" type="text/css">
+		{% if page.colors %}
+			<style media="screen" type="text/css">
+				body 
+				{ 
+					background-color: {{ page.colors[0] }};
+					background-image: -ms-linear-gradient(top, {{ page.colors[0] }} 0%, {{ page.colors[1] }} 80%);
+					background-image: -moz-linear-gradient(top, {{ page.colors[0] }} 0%, {{ page.colors[1] }} 80%);
+					background-image: -o-linear-gradient(top, {{ page.colors[0] }} 0%, {{ page.colors[1] }} 80%);
+					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, {{ page.colors[0] }}), color-stop(1, {{ page.colors[1] }}));
+					background-image: -webkit-linear-gradient(top, {{ page.colors[0] }} 0%, {{ page.colors[1] }} 80%);
+					background-image: linear-gradient(to bottom, {{ page.colors[0] }} 0%, {{ page.colors[1] }} 80%);
+					border-top-color: {{ page.colors[1] }}; 
+				}
+			</style>
+		{% endif %}
+		{% assign is_work = false %}{% assign is_home = false %}{% assign body_class = '' %}
+		{% for category in page.categories %}
+			{% if is_work == false and category == 'work' %}
+				{% assign is_work = true %}{% assign body_class = 'rev' %}
+			{% endif %}
+		{% endfor %}
+		{% if page.title == 'Home' %}
+			{% assign is_home = true %}{% capture body_class %}{{ body_class | append:' home' }}{% endcapture %}
+		{% else %}
+			{% capture body_class %}{{ body_class | append:' not-home' }}{% endcapture %}
+		{% endif %}
+	</head>
+	<!--[if lt IE 7]><body class="{{ body_class }} lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+	<!--[if IE 7]><body class="{{ body_class }} lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+	<!--[if IE 8]><body class="{{ body_class }} lt-ie10 lt-ie9"><![endif]-->
+	<!--[if IE 9]><body class="{{ body_class }} lt-ie10"><![endif]-->
+	<!--[if gt IE 9]><!--><body class="{{ body_class }}"><!--<![endif]-->
+		<header class="site-header" id="top">
+			<a class="menu" id="menu" href="#" title="Show/hide the navigation menu">Menu</a>
+			{% if is_home %}
+				<img class="header-img" alt="{{ site.title }}" src="{{ ASSET_PATH }}/img/{{ site.header_img }}" />
+			{% endif %}
+			<nav class="site-navigation inner" id="navigation">
+		    	<ul>
+		            {% assign pages_list = site.pages | sort: 'name' %}
+		            {% assign group = 'navigation' %}
+		            {% include JB/pages_list %}
+		    	</ul>
+			</nav>
+		</header>
+		{% if is_home %}
+			<section class="hero" id="intro">
+				<div class="inner">
+					{{ content }}
+				</div>
+			</section>
+			<section class="repeating default">
+				<h2 id="work">Selected Work</h2>
+				{% include work_list.html %}
+			</section>
+		{% else %}
+			{{ content }}
+		{% endif %}
+    	<footer class="site-footer" id="contact">
+    		<div class="inner">
+		    	<h6>Bend My Ear</h6>
+		    	<p>
+		    		There are loads of ways to get in touch. Send over an email if you're interested in working
+		    		with me, troll me on Twitter, or marvel at my endless Instagram sunsets.
+		    	</p>
+		    	<ul class="social-links">
+			    	<li><a class="iconbg email" href="mailto:letstalk@joelparr.com" 
+			    		title="Contact me via email me."><b>Email</b></a></li>
+			    	<li><a class="iconbg twitter" href="http://twitter.com/joelp" target="_blank" 
+			    		title="Follow @joelp on Twitter.com"><b>Twitter</b></a></li>
+			    	<li><a class="iconbg instagram" href="http://instagram.com/joelparr" target="_blank" 
+			    		title="Follow @joelparr on Instagram.com"><b>Instagram</b></a></li>
+			    	<li><a class="iconbg tumblr" href="http://everything-but-everything.tumblr.com" target="_blank" 
+			    		title="Follow Everything But Everything on Tumblr.com"><b>Tumblr</b></a></li>
+		    	</ul>
+		    	<p class="hygiene">
+		    		&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. 
+		    		Hand-built on 
+			    	<a href="http://jekyllrb.com" target="_blank" title="Open Jekyll in new window">Jekyll</a> + 
+			    	<a href="http://pages.github.com" target="_blank" title="Open Github Pages in new window">
+			    		Github Pages</a>. 
+			    	Thanks <a href="http://icons8.com/free-ios-7-icons-in-vector" target="_blank" 
+			    		title="Open Icons8 in new window">Icons8</a>.
+		    	</p>
+		    	<a class="up" href="#top" title="Return to the top of the page">Back to top</a>
+	    	</div>
+    	</footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>
+        	window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/vendor/jquery-1.11.0.min.js"><\/script>')
+        </script>
+        <script src="{{ ASSET_PATH }}/js/plugins.js"></script>
+        <script src="{{ ASSET_PATH }}/js/main.js"></script>
+		{% include JB/analytics %}
+	</body>
+</html>

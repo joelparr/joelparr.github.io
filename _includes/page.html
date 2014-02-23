@@ -1,0 +1,9 @@
+<section class="content page">
+		<header class="content-header inner">
+			<h1>{{ page.header }}</h1>
+			{% if page.abstract %}
+				<p class="lede">{{ page.abstract }}</p>
+			{% endif %}
+		</header>
+		{{ content }}
+</section>

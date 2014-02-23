@@ -1,0 +1,9 @@
+{% assign words_collection = site.categories['words'] | order:descending %}
+{% if words_collection %}
+	<ul class="list text">
+		{% for page in words_collection %}
+			<li><a href="{{ BASE_PATH }}{{ page.url }}" title="View {{ page.title }}">
+				{{ page.title }}</a></li>
+		{% endfor %}
+	</ul>
+{% endif %}

@@ -1,0 +1,47 @@
+{% assign is_work_page = false %}
+{% for category in page.categories %}
+	{% if is_work_page == false and category == 'work' %}
+		{% assign is_work_page = true %}
+	{% endif %}
+{% endfor %}
+<section class="content post{% if is_work_page == true %} rev{% endif %}">
+	<div class="inner">
+		<header class="content-header">
+			{% if is_work_page == true %}
+				<aside class="tags">
+		    		<ul>
+		    			{% for tag in page.tags  %}
+		    				<li>{{ tag }}</li>
+		    			{% endfor %}
+		    		</ul>
+				</aside>
+			{% endif %}
+			<h1>{{ page.title }}</h1>
+			<p class="lede">{{ page.abstract }}</p>
+			{% if is_work_page == false %}
+				<time class="datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+			{% endif %}
+		</header>
+		<div class="cms-content">
+			{{ content }}
+		</div>
+	</div>
+</section>
+<div class="sharing">
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	<p>
+		<a class="action twitter" href="https://twitter.com/intent/tweet?via=joelp&amp;text={{ page.description | uri_escape }}&amp;url={{ site.production_url | uri_escape }}{{ page.url | uri_escape }}">
+			Tweet <small>Discuss this on Twitter.</small>
+		</a>
+	</p>
+</div>
+{% if page.previous_in_category != nil or page.next_in_category != nil %}
+<nav class="pagination">
+	{% if page.previous_in_category != nil %}
+		<a class="prev" href="{{ BASE_PATH }}{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}">Previous</a>
+	{% endif %}
+	{% if page.next_in_category != nil %}
+		<a class="next" href="{{ BASE_PATH }}{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">Next</a>
+	{% endif %}
+</nav>
+{% endif %}

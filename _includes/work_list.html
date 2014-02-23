@@ -1,0 +1,27 @@
+{% assign work_collection = site.categories['work'] | order:descending %}
+{% if work_collection %}
+<ul class="list boxes">
+	{% for page in work_collection %}
+    	<li class="box" data-color-one="{{ page.colors[0] }}" data-color-two="{{ page.colors[1] }}">
+    		<div class="inner">
+	    		<h3><a href="{{ page.url }}" title="View more about {{ page.title }}">{{ page.title }}</a></h3>
+	    		<p>{{ page.abstract }}</p>
+	    		<aside class="tags">
+		    		<ul>
+		    			{% for tag in page.tags  %}
+		    				<li>{{ tag }}</li>
+		    			{% endfor %}
+		    		</ul>
+	    		</aside>
+	    		{% if page.custom_cta %}
+	    			<a class="cta" href="{{ BASE_PATH }}{{ page.url }}" title="{{ page.custom_cta }}">
+	    				{{ page.custom_cta }}</a>
+	    		{% else %}
+	    			<a class="cta" href="{{ BASE_PATH }}{{ page.url }}" title="View more {{ page.title }}">
+	    				More {{ page.title }}</a>
+	    		{% endif %}
+    		</div>
+    	</li>
+	{% endfor %}
+</ul>
+{% endif %}
