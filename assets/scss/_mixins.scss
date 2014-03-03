@@ -1,35 +1,29 @@
 // REM prop sizing calc w/fallback
 // http://drublic.de/blog/rem-fallback-sass-less/
 @mixin _rem ($property, $value) {
-	#{$property}: $value * $base-font-size-small;
-
-	@include _respond-to($bp-medium) 
-	{
-		#{$property}: $value * $base-font-size-medium;
-	}
-
+	#{$property}: $value * $base-font-size-medium;
 	#{$property}: #{$value}rem;
 }
 
 @mixin _font-family-headline {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	@include _rem(letter-spacing, 0.125);
 }
 
 @mixin _font-family-body {
-	font-family: 'Lato', Georgia, Times, serif;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
 @mixin _font-family-pull {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
 @mixin _font-family-tags {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	@include _rem(letter-spacing, 0.0625);
@@ -66,11 +60,11 @@
 	margin-left: -26.25%;
 	max-width: 152.5%;
 	width: 152.5%;
+}
 
-	.rev & 
-	{
-		margin-left: 0;
-	}
+@mixin _breakout-mini {
+	max-width: 126.25%;
+	width: 126.25%;
 }
 
 @mixin _respond-to($size: $bp-medium, $min-max: min-width) {

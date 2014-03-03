@@ -3,6 +3,7 @@
 		init: function() {
 			this.colorBoxes();
 			this.setupMobileMenu();
+			this.setupLazyLoad();
 			this.setupSmoothScrolling();
 		},
 
@@ -36,6 +37,24 @@
 			$navigation.find('a').click(function(e) {
 				if ($menu.hasClass('expanded'))
 					$('#menu').trigger('click');
+			});
+		},
+
+		// Lazyload setup
+		setupLazyLoad: function() {
+			var jp = this;
+
+			// 0 threshold, delegate to callback true
+			$('.ll').unveil(0, true, function(isRetina) {
+		        var $lazyElem	= $(this),
+		        	retina 		= isRetina || false,
+		        	source 		= $lazyElem.attr('data-src');
+
+		        if (source) {
+		        	$('<img />').load(function() {
+		        			$lazyElem.attr('src', source).addClass('loaded');
+		        	}).attr('src', source);
+		        }
 			});
 		},
 

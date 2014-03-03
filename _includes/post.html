@@ -7,21 +7,21 @@
 <section class="content post{% if is_work_page == true %} rev{% endif %}">
 	<div class="inner">
 		<header class="content-header">
-			{% if is_work_page == true %}
-				<aside class="tags">
-		    		<ul>
-		    			{% for tag in page.tags  %}
-		    				<li>{{ tag }}</li>
-		    			{% endfor %}
-		    		</ul>
-				</aside>
-			{% endif %}
 			<h1>{{ page.title }}</h1>
 			<p class="lede">{{ page.abstract }}</p>
 			{% if is_work_page == false %}
 				<time class="datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
 			{% endif %}
 		</header>
+		{% if is_work_page == true %}
+			<aside class="tags">
+	    		<ul>
+	    			{% for tag in page.tags  %}
+	    				<li>{{ tag }}</li>
+	    			{% endfor %}
+	    		</ul>
+			</aside>
+		{% endif %}
 		<div class="cms-content">
 			{{ content }}
 		</div>
@@ -38,10 +38,12 @@
 {% if page.previous_in_category != nil or page.next_in_category != nil %}
 <nav class="pagination">
 	{% if page.previous_in_category != nil %}
-		<a class="prev" href="{{ BASE_PATH }}{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}">Previous</a>
+		<a class="prev icon-button" href="{{ BASE_PATH }}{{ page.previous_in_category.url }}" title="{{ page.previous_in_category.title }}">Previous</a>
+	{% else %}
+		<a class="home icon-button" href="/" title="Return to Homepage">Home</a>
 	{% endif %}
 	{% if page.next_in_category != nil %}
-		<a class="next" href="{{ BASE_PATH }}{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">Next</a>
+		<a class="next icon-button" href="{{ BASE_PATH }}{{ page.next_in_category.url }}" title="{{ page.next_in_category.title }}">Next</a>
 	{% endif %}
 </nav>
 {% endif %}

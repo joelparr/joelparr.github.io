@@ -2,7 +2,7 @@
 layout: default
 group: navigation
 title: Home
-description: 'Joel Parr makes websites for people. Design, UX, IA and Development in Austin, TX.'
+description: 'Joel Parr makes websites. Design, UX, IA and Development in Austin, TX.'
 permalink: /
 ---
 {% include JB/setup %}

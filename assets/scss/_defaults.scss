@@ -9,7 +9,8 @@ $bp-large: 1024px;
 
 // Universal font size - used for REM calc
 $base-font-size-small: 13px;
-$base-font-size-medium: 16px;
+$base-font-size-medium: 14px;
+$base-font-size-large: 16px;
 
 html,
 button,
@@ -26,6 +27,11 @@ html {
     @media only screen and (min-width: $bp-medium) 
     { 
         font-size: $base-font-size-medium;
+    }
+
+    @media only screen and (min-width: $bp-large) 
+    { 
+        font-size: $base-font-size-large;
     }
 }
 

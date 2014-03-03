@@ -48,9 +48,10 @@
 	<!--[if IE 9]><body class="{{ body_class }} lt-ie10"><![endif]-->
 	<!--[if gt IE 9]><!--><body class="{{ body_class }}"><!--<![endif]-->
 		<header class="site-header" id="top">
-			<a class="menu" id="menu" href="#" title="Show/hide the navigation menu">Menu</a>
+			<a class="menu icon-button" id="menu" href="#" title="Show/hide the navigation menu">Menu</a>
 			{% if is_home %}
-				<img class="header-img" alt="{{ site.title }}" src="{{ ASSET_PATH }}/img/{{ site.header_img }}" />
+				<img class="header-img" alt="Photo courtesy of Cory Ryan" 
+					src="{{ ASSET_PATH }}/img/{{ site.header_img }}" />
 			{% endif %}
 			<nav class="site-navigation inner" id="navigation">
 		    	<ul>
@@ -87,8 +88,7 @@
 			    		title="Follow @joelp on Twitter.com"><b>Twitter</b></a></li>
 			    	<li><a class="iconbg instagram" href="http://instagram.com/joelparr" target="_blank" 
 			    		title="Follow @joelparr on Instagram.com"><b>Instagram</b></a></li>
-			    	<li><a class="iconbg tumblr" href="http://everything-but-everything.tumblr.com" target="_blank" 
-			    		title="Follow Everything But Everything on Tumblr.com"><b>Tumblr</b></a></li>
+			    	<!--<li><a class="iconbg tumblr" href="http://everything-but-everything.tumblr.com" target="_blank" title="Follow Everything But Everything on Tumblr.com"><b>Tumblr</b></a></li>-->
 		    	</ul>
 		    	<p class="hygiene">
 		    		&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. 
@@ -99,15 +99,14 @@
 			    	Thanks <a href="http://icons8.com/free-ios-7-icons-in-vector" target="_blank" 
 			    		title="Open Icons8 in new window">Icons8</a>.
 		    	</p>
-		    	<a class="up" href="#top" title="Return to the top of the page">Back to top</a>
+		    	<a class="up icon-button" href="#top" title="Return to the top of the page">Back to top</a>
 	    	</div>
     	</footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>
         	window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/vendor/jquery-1.11.0.min.js"><\/script>')
         </script>
-        <script src="{{ ASSET_PATH }}/js/plugins.js"></script>
-        <script src="{{ ASSET_PATH }}/js/main.js"></script>
-		{% include JB/analytics %}
+        <script src="{{ ASSET_PATH }}/js/all.min.js"></script>
+		{% include analytics.html %}
 	</body>
 </html>

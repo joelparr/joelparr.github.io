@@ -82,8 +82,14 @@ b, strong
 
 %section
 {
-	@include _rem(padding-top, 6);
-	@include _rem(padding-bottom, 6);
+	@include _rem(padding-top, 5);
+	@include _rem(padding-bottom, 5);
+
+	@include _respond-to($bp-large) 
+	{
+		@include _rem(padding-top, 6);
+		@include _rem(padding-bottom, 6);
+	}
 }
 
 %section-compressed
@@ -107,14 +113,10 @@ b, strong
 .inner
 {
 	margin: 0 auto;
+	max-width: 57.8125em;
 	position: relative;
-	width: 65%;	
+	width: 90%;	
 	z-index: 1;
-
-	.not-home & 
-	{
-		width: 72.5%;
-	}
 }
 
 .site-header
@@ -125,103 +127,65 @@ b, strong
 	.not-home &
 	{
 		@extend %section-compressed;
+		padding-bottom: 0;
+
+		@include _respond-to($bp-medium) 
+		{
+			@include _rem(padding-bottom, 2.5);
+		}
 	}
 
 	.header-img
 	{
+		@include _rem(margin-bottom, 3);
 		@include _rem(max-width, 14);
-		@include _rem(margin-bottom, 5);
-	}
-}
 
-.menu 
-{
-	color: $type-nav;
-	display: block;
-	font-size: 0;
-	line-height: 0;
-	position: absolute;
-	@include _rem(right, 0.5);
-	text-align: left;
-	top: 0;
-
-	&:before 
-	{
-		background: transparent no-repeat center center;
-		content: '';
-		display: block;
-		@include _rem(font-size, 1);
-		height: 3em;
-		text-align: center;
-		width: 3em;
-
-		.svg &
+		@include _respond-to($bp-medium) 
 		{
-			background-image: url('../img/icon-menu.svg');
-		}
-
-		.svg .rev &
-		{
-			background-image: url('../img/icon-menu-black.svg');
-		}
-
-		.no-svg &
-		{
-			background-image: url('../img/icon-menu.png');
-			background-size: 50%;
-		}
-
-		.no-svg .rev &
-		{
-			background-image: url('../img/icon-menu-black.png');
+			@include _rem(margin-bottom, 5);
 		}
 	}
 
-	&:active,
-	.no-touch &:hover 
+	.menu
 	{
-		color: $type-nav-active;
-	}
+		background-color: transparent;
+		background-image: url('../img/icon-menu.png');
+		background-size: 50%;
+		left: auto;
+		right: 0;
+		top: 0;
+		z-index: 20;
 
-	.rev &
-	{
-		color: $type-link;
-		opacity: 0.33;
-
-		&:active,
-		.no-touch &:hover 
+		.home &
 		{
-			color: $type-link;
-			opacity: 0.5;
+			display: none;
 		}
-	}
 
-	.home & 
-	{
-		display: none;
-	}
-
-	@include _respond-to($bp-medium) 
-	{
-		display: none;
+		@include _respond-to($bp-large) 
+		{
+			display: none;
+		}
 	}
 }
 
 .site-navigation
 {
 	height: 0;
+	@include _rem(margin-top, 2);
 	overflow: hidden;
 	@include transition (height 0.25s ease-in-out);
 
-	@include _respond-to($bp-medium)
+	@include _respond-to($bp-large)
 	{
 		height: auto;
+		margin-top: 0;
 		text-align: right;
 	}
 
 	.home & 
 	{
 		height: auto;
+		margin-top: 0;
 		text-align: center;
 		width: 90%;
 
@@ -247,6 +211,23 @@ b, strong
 			text-align: center;
 			width: auto;
 
+			.not-home &
+			{
+				display: block;
+				padding: 0;
+				text-align: right;
+				width: 100%;
+
+				@include _respond-to($bp-large)
+				{
+					display: inline-block;
+					@include _rem(padding-right, 2);
+					@include _rem(padding-left, 2);
+					text-align: center;
+					width: auto;
+				}
+			}
+
 			.not-home &:last-child
 			{
 				padding-right: 0;
@@ -256,12 +237,11 @@ b, strong
 			{
 				@include _rem(padding-right, 1);
 				@include _rem(padding-left, 1);
-
-				width: 50%;
+				width: 40%;
 
 				@include _respond-to($bp-medium)
 				{
-					width: 13.5%;
+					width: 17.5%;
 				}
 			}
 		}
@@ -292,7 +272,7 @@ b, strong
 					}
 				}
 
-				@include _respond-to($bp-medium)
+				@include _respond-to($bp-large)
 				{
 					line-height: 1;
 				}
@@ -316,15 +296,28 @@ b, strong
 
 	h1
 	{
-		@include _rem(font-size, 4);
+		@include _rem(font-size, 3);
+		line-height: 1.1;
 		@include _rem(margin-bottom, 3);
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 4);
+		}
 	}
 
 	p 
 	{
 		color: $type-rev;
-		@include _rem(font-size, 1.5);
+		@include _rem(font-size, 1.375);
 		@include _rem(margin-bottom, 2);
+		text-align: left;
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 1.5);
+			text-align: center;
+		}
 	}
 
 	a,
@@ -350,11 +343,23 @@ b, strong
 
 	h2
 	{
-		@include _rem(font-size, 3.5);
+		@include _rem(font-size, 2.75);
 		display: inline-block;
-		@include _rem(margin-bottom, 6);
+		line-height: 1.2;
+		@include _rem(margin-bottom, 5);
 		text-shadow: none;
 		width: 90%;
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 3);	
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(font-size, 3.5);
+			@include _rem(margin-bottom, 6);
+		}
 	}
 }
 
@@ -364,12 +369,38 @@ b, strong
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	width: 90%;
+	width: 85%;
+
+	@include _respond-to($bp-medium)
+	{
+		width: 95%;
+	}
 
 	li 
 	{
 		display: inline-block;
 	}
+}
+
+.text 
+{
+	font-size: 0; // Display inline-block percentage width hack
+	width: 75%;
+
+	li 
+	{
+		display: inline;
+	}
+
+		a 
+		{
+			@include box-sizing(border-box);
+			display: inline-block;
+			@include _rem(font-size, 1.75);
+			line-height: 1;
+			text-align: left;
+			width: 50%;
+		}
 }
 
 .boxes
@@ -384,19 +415,33 @@ b, strong
 		color: $type-rev;
 		display: inline-block;
 		@include _rem(font-size, 1);
-		margin: 0 2.5%;
-		@include _rem(margin-bottom, 4);
+		@include _rem(margin-bottom, 3);
 		@include _rem(padding, 3);
 		@include _rem(padding-right, 2);
 		@include _rem(padding-left, 2);
 		position: relative;
 		text-align: center;
-		width: 45%;
+		vertical-align: top;
+		width: 100%;
 		z-index: 0;
 
 		&:before
 		{
 			@extend %tri;
+		}
+
+		@include _respond-to($bp-medium)
+		{
+			margin-right: 2.5%;
+			margin-left: 2.5%;
+			width: 45%;
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(margin-bottom, 4);
+			@include _rem(padding-right, 3);
+			@include _rem(padding-left, 3);
 		}
 
 		.inner
@@ -408,17 +453,27 @@ b, strong
 
 		h3 
 		{
-			@include _rem(font-size, 2.5);
-			@include _rem(margin-bottom, 2);
+			@include _rem(font-size, 2);
+			line-height: 1.2;
+			@include _rem(margin-bottom, 1.25);
+
+			@include _respond-to($bp-large)
+			{
+				@include _rem(font-size, 2.5);
+			}
 		}
 
 		p
 		{
 			color: $primary;
-			@include _rem(font-size, 1.125);
+			@include _rem(font-size, 1.25);
 			margin: 0 auto;
 			@include _rem(margin-bottom, 2);
-			width: 85%;
+
+			@include _respond-to($bp-medium)
+			{
+				@include _rem(font-size, 1.125);
+			}
 		}
 
 		a,
@@ -464,8 +519,10 @@ b, strong
 	background-color: $highlight;
 	color: $type-rev;
 	@include _rem(letter-spacing, 0.0625);
-	line-height: 3;
+	line-height: 1.2;
+	@include _rem(padding-top, 1.125);
 	@include _rem(padding-right, 1.25);
+	@include _rem(padding-bottom, 1.125);
 	@include _rem(padding-left, 1.25);
 
 	&:active,
@@ -475,14 +532,44 @@ b, strong
 	}
 }
 
+.icon-button
+{
+	background: rgba(#000, 0.3) no-repeat center center;
+	background-size: 85%;
+	@include box-sizing(border-box);
+	bottom: 0;
+	color: $primary;
+	display: block;
+	@include _rem(height, 3);
+	left: 0;
+	opacity: 0.5;
+	position: absolute;
+	text-align: center;
+	text-indent: -999em;
+	@include transition (all 0.15s ease-in-out);
+	@include _rem(width, 3);
+	z-index: 10;
+
+	&:active,
+	&:hover
+	{
+		opacity: 0.75;
+	}
+}
+
 .content
 {
 	@extend %section;
 
 	color: $type-std;
 	overflow: hidden;
-	@include _rem(padding-top, 7);
+	@include _rem(padding-top, 3);
 	padding-bottom: 0;
+
+	@include _respond-to($bp-large)
+	{
+		@include _rem(padding-top, 7);
+	}
 
 	&:before
 	{
@@ -490,7 +577,7 @@ b, strong
 
 		background-size: 100% 9%;
 		background-size: 100% 21.875rem;
-		opacity: 0.025;
+		opacity: 0.075;
 		position: absolute;
 		z-index: -1;
 	}
@@ -498,7 +585,12 @@ b, strong
 	&.rev 
 	{
 		color: $primary;
-		@include _rem(padding-bottom, 6);
+		@include _rem(padding-bottom, 4);
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(padding-bottom, 6);
+		}
 
 		&:before 
 		{
@@ -508,88 +600,135 @@ b, strong
 
 	&.page 
 	{
-		@include _rem(padding-bottom, 3);
+		@include _rem(padding-bottom, 2);
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(padding-bottom, 3);
+		}
+	}
+
+	.ll
+	{
+		background-color: rgba(0, 0, 0, 0.05);
+		@include transition (background-color 0.25s ease-in-out);
+
+		&.loaded
+		{
+			background-color: transparent;
+		}
 	}
 }
 
 .content-header
 {
-	.page & 
-	{
-		@include _rem(margin-bottom, 6);
-	}
+	margin: 0 auto;
+	max-width: 44em;
+	text-align: center;
 
-	.post &:after 
+	@include _respond-to($bp-large)
 	{
-		@extend %rule;
-		content: '';
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	.post.rev &:after 
-	{
-		margin-right: 0;
-		margin-left: 0;
+		max-width: none;
 	}
 
 	.rev &
 	{
-		text-align: left;
-	}
-
-	.tags
-	{
-		border-right: solid rgba(#000, 0.15);
-		@include _rem(border-width, 0.625);
-		float: right;
-		@include _rem(margin-top, 0.4375);
-		@include _rem(margin-bottom, 0.4375);
-		margin-left: 5%;
-		overflow: hidden;		
-		@include _rem(padding-right, 1);
-
-		li
+		@include _respond-to($bp-medium)
 		{
-			clear: both;
-			display: block;
-			float: right;
 			margin: 0;
-			@include _rem(margin-bottom, 1);
-
-			&:last-child
-			{
-				margin-bottom: 0;
-			}
+			text-align: left;
+			width: 70%;
 		}
 	}
 
+	.page & 
+	{
+		@include _rem(margin-bottom, 5);
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(margin-bottom, 6);
+		}
+	}
+
+		.post &:after 
+		{
+			@extend %rule;
+			content: '';
+			display: block;
+			@include _rem(margin-top, 2);
+			@include _rem(margin-bottom, 2);
+			margin-right: auto;
+			margin-left: auto;
+
+			@include _respond-to($bp-medium)
+			{
+				@include _rem(margin-top, 3);
+				@include _rem(margin-bottom, 3);
+			}
+		}
+
+		.rev &:after 
+		{
+			display: none;
+			margin-right: 0;
+			margin-left: 0;
+			width: 7.5%;
+
+			@include _respond-to($bp-medium)
+			{
+				display: block;
+			}
+		}
+
 	h1
 	{
-		@include _rem(font-size, 5);
+		@include _rem(font-size, 2.5);
 		line-height: 1.1;
 		@include _rem(margin-bottom, 0.625);
 
-		.rev & 
+		@include _respond-to($bp-medium)
 		{
-			@include _rem(left, -0.25);
-			position: relative;
+			@include _rem(font-size, 3.5);
+
+			.rev & 
+			{
+				@include _rem(left, -0.25);
+				position: relative;
+			}
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(font-size, 5);
 		}
 	}
 	
 	.lede
 	{
 		@include _font-family-body();
-		@include _rem(font-size, 2);
+		@include _rem(font-size, 1.375);
 		font-weight: 700;
 		line-height: 1.4;
 		margin: 0 auto;
-		max-width: 24em;
+		max-width: 28em;
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 1.675);
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(font-size, 2);
+		}
 
 		.rev & 
 		{
-			margin: 0;
-			max-width: 20em;
+			@include _respond-to($bp-medium)
+			{
+				margin: 0;
+			}
 		}
 	}
 
@@ -598,11 +737,53 @@ b, strong
 		color: rgba(#000, 0.5);
 		display: block;
 		@include _font-family-body();
-		@include _rem(font-size, 1.5);
+		@include _rem(font-size, 1.25);
 		font-weight: 700;
 		line-height: 1;
-		@include _rem(margin-top, 2);
+		@include _rem(margin-top, 1);
 		position: relative;
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 1.5);
+			@include _rem(margin-top, 2);
+		}
+	}
+}
+
+.post 
+{
+	.tags
+	{
+		@include _rem(margin-top, 1.5);
+
+		@include _respond-to($bp-medium)
+		{
+			border-right: solid rgba(#000, 0.15);
+			@include _rem(border-width, 0.625);
+			margin-top: 0;
+			@include _rem(margin-bottom, 0.4375);
+			overflow: hidden;		
+			@include _rem(padding-right, 1);
+			position: absolute;
+			right: 0;
+			@include _rem(top, 0.4375);
+			width: 30%;
+
+			li
+			{
+				clear: both;
+				display: block;
+				float: right;
+				margin: 0;
+				@include _rem(margin-bottom, 1);
+
+				&:last-child
+				{
+					margin-bottom: 0;
+				}
+			}
+		}
 	}
 }
 
@@ -610,34 +791,44 @@ b, strong
 {
 	color: $type-std;
 	margin: 0 auto;
-	max-width: 38em;
+	max-width: 44em;
 	text-align: left;
+
+	@include _respond-to($bp-large)
+	{
+		max-width: 38em;
+	}
 
 	.rev &
 	{
 		color: $primary;
-		margin: 0;
+		margin: 0 auto;
+
+		@include _respond-to($bp-medium)
+		{
+			//margin: 0;
+		}
 	}
 
 	h2
 	{
 		@include _rem(font-size, 2.75);
 		@include _rem(margin-top, 2);
-		@include _rem(margin-bottom, 2);
+		@include _rem(margin-bottom, 1);
 	}
 
 	h3
 	{
 		@include _rem(font-size, 2.25);
 		@include _rem(margin-top, 2);
-		@include _rem(margin-bottom, 2);
+		@include _rem(margin-bottom, 1);
 	}
 
 	h4
 	{
 		@include _rem(font-size, 1.75);
 		@include _rem(margin-top, 2);
-		@include _rem(margin-bottom, 2);
+		@include _rem(margin-bottom, 1);
 	}
 
 	p
@@ -645,19 +836,32 @@ b, strong
 		@include _rem(font-size, 1.25);
 		@include _rem(margin-bottom, 1.5);
 
-		>img,
-		>video 
+		@include _respond-to($bp-large)
 		{
-			@include _breakout();
+			>img,
+			>video 
+			{
+				@include _breakout();
+			}
 		}
 	}
 
 	>p:first-child 
 	{
-		@include _rem(font-size, 1.625);
+		@include _rem(font-size, 1.375);
 		line-height: 1.5;
 		@include _rem(margin-bottom, 1.75);
-		@include _breakout();
+
+		@include _respond-to($bp-medium)
+		{
+			@include _rem(font-size, 1.625);
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(font-size, 1.75);
+			@include _breakout();
+		}
 	}
 
 	ul 
@@ -706,7 +910,11 @@ b, strong
 		@include _rem(margin-bottom, 2);
 		@include _rem(padding, 2);
 		text-align: center;
-		@include _breakout();
+
+		@include _respond-to($bp-large)
+		{
+			@include _breakout();
+		}
 
 		.rev & 
 		{
@@ -747,10 +955,22 @@ b, strong
 
 	.multi-col 
 	{
-		@include columns(2);
-		@include column-gap(2em);
-		@include _rem(margin-bottom, 0.5);
-		@include _breakout();
+		@include _respond-to($bp-medium)
+		{
+			@include columns(2);
+			@include column-gap(2em);
+			@include _rem(margin-bottom, 0.5);
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _breakout-mini();	
+
+			&:first-of-type
+			{
+				@include _breakout();	
+			}
+		}
 	}
 
 	.cta,
@@ -758,6 +978,8 @@ b, strong
 	{
 		border: none;
 		color: $primary;
+		margin-right: auto;
+		margin-left: auto;
 		@include _rem(margin-top, 2);
 
 		&:active,
@@ -768,54 +990,48 @@ b, strong
 	}
 }
 
-.pagination,
-.site-footer
+.pagination
 {
-	.prev,
-	.next,
-	.up 
-	{
-		background: rgba(#000, 0.3) url('../img/icon-left.png') no-repeat center center;
-		background-size: 85%;
-		@include box-sizing(border-box);
-		color: $primary;
-		display: block;
-		@include _rem(height, 3);
-		left: 0;
-		@include _rem(margin-top, -1.5);
-		opacity: 0.5;
-		position: fixed;
-		text-align: center;
-		text-indent: -999em;
-		@include transition (all 0.15s ease-in-out);
-		top: 50%;
-		@include _rem(width, 3);
-		z-index: 10;
+	@include _rem(height, 3);
+	left: 0;
+	position: absolute;
+	@include _rem(top, 0.375);
+	width: 100%;
+	z-index: 0;
 
-		&:active,
-		&:hover
+	@include _respond-to($bp-large)
+	{
+		@include _rem(margin-top, -1.5);
+		position: fixed;
+		top: 50%;
+	}
+
+	.home 
+	{
+		background-image: url('../img/icon-home.png');
+		background-size: 50%;
+
+		@include _respond-to($bp-large)
 		{
-			opacity: 0.75;
+			display: none;
 		}
+	}
+
+	.prev
+	{
+		background-image: url('../img/icon-left.png');
 	}
 
 	.next 
 	{
 		background-image: url('../img/icon-right.png');
-		left: auto;
-		right: 0;
-	}
+		left: 3.25rem;
 
-	.up 
-	{
-		background-image: url('../img/icon-up.png');
-		@include _rem(bottom, -7);
-		left: 50%;
-		@include _rem(margin-left, -1.5);
-		opacity: 0.25;
-		position: absolute;
-		right: 0;
-		top: auto;
+		@include _respond-to($bp-large)
+		{
+			left: auto;
+			right: 0;
+		}
 	}
 }
 
@@ -831,8 +1047,8 @@ b, strong
 	&:before 
 	{
 		@include _pseudo-block(100%, 100%);
-		background: transparent url('../img/icon-twitter-256.png') no-repeat center center;
-		background-size: 12.5%;
+		background: transparent url('../img/icon-twitter.png') no-repeat center center;
+		@include _rem(background-size, 10);
 		opacity: 0.05;
 	}
 
@@ -889,6 +1105,7 @@ b, strong
 	p 
 	{	
 		color: $type-rev;
+		@include _rem(font-size, 1.125);
 		@include _rem(font-size, 1.375);
 	}
 
@@ -908,17 +1125,36 @@ b, strong
 	{
 		@include _rem(font-size, 1);
 	}
+
+	.up 
+	{
+		background-image: url('../img/icon-up.png');
+		@include _rem(bottom, -7);
+		left: 50%;
+		@include _rem(margin-left, -1.5);
+		opacity: 0.25;
+		position: absolute;
+		right: 0;
+		top: auto;
+
+		&:active,
+		&:hover
+		{
+			opacity: 0.5;
+		}
+	}
 }
 
 .social-links
 {
-	@include _rem(padding-top, 2.5);
-	@include _rem(padding-bottom, 2.5);
+	margin: 0;
+	padding: 0;
+	@include _rem(padding-top, 4);
+	@include _rem(padding-bottom, 3);
 
-	ul
+	@include _respond-to($bp-medium)
 	{
-		margin: 0;
-		padding: 0;
+		@include _rem(padding-bottom, 4);
 	}
 
 	li
@@ -926,15 +1162,21 @@ b, strong
 		display: inline;
 	}
 
-	a,
-	a:visited,
-	a:active,
-	a:hover
-	{
-		color: $type-rev;
-		display: inline-block;
-		margin: 0 3%;
-	}
+		a,
+		a:visited,
+		a:active,
+		a:hover
+		{
+			color: $type-rev;
+			display: inline-block;
+			margin: 0 3%;
+			@include _rem(margin-bottom, 1);
+
+			@include _respond-to($bp-medium)
+			{
+				margin-bottom: 0;
+			}
+		}
 }
 
 .iconbg
@@ -961,23 +1203,23 @@ b, strong
 
 	&.email:before
 	{
-		background-image: url('../img/icon-email-256.png');
+		background-image: url('../img/icon-email.png');
 		background-size: 60%;
 	}
 
 	&.twitter:before
 	{
-		background-image: url('../img/icon-twitter-256.png');
+		background-image: url('../img/icon-twitter.png');
 	}
 
 	&.instagram:before
 	{
-		background-image: url('../img/icon-instagram-256.png');
+		background-image: url('../img/icon-instagram.png');
 	}
 
 	&.tumblr:before
 	{
-		background-image: url('../img/icon-tumblr-256.png');
+		background-image: url('../img/icon-tumblr.png');
 	}
 
 	b 

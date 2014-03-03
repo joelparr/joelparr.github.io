@@ -1,0 +1,7 @@
+gzip_assets: off
+javascript_compressor: uglifier
+
+javascripts:
+  all:
+    - assets/js/_src/plugins.js
+    - assets/js/_src/main.js
