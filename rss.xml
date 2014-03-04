@@ -5,14 +5,15 @@
         <description>Joel Makes Websites - Joel Parr</description>
         <link>http://joelparr.com</link>
         <link>http://joelparr.com</link>
-        <lastBuildDate>2014-03-04T12:50:37-06:00</lastBuildDate>
-        <pubDate>2014-03-04T12:50:37-06:00</pubDate>
+        <lastBuildDate>2014-03-04T12:58:07-06:00</lastBuildDate>
+        <pubDate>2014-03-04T12:58:07-06:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Super&shy;mechanical</title>
-                <description>&lt;p&gt;Supermechanical are, in their own words, designer-engineers who make everyday objects that connect us. They’re responsible for &lt;a href=&quot;http://supermechanical.com/twine/features.html&quot;&gt;Twine&lt;/a&gt;, the super-cool, 2.7” wifi-enabled home monitoring system. They’re also responsible for the Kickstarter-phenomenon &lt;a href=&quot;http://supermechanical.com/range&quot;&gt;Range&lt;/a&gt;, an iOS App-connected smart cooking thermometer.&lt;/p&gt;
+                <description>
+&lt;p&gt;Supermechanical are, in their own words, designer-engineers who make everyday objects that connect us. They’re responsible for &lt;a href=&quot;http://supermechanical.com/twine/features.html&quot;&gt;Twine&lt;/a&gt;, the super-cool, 2.7” wifi-enabled home monitoring system. They’re also responsible for the Kickstarter-phenomenon &lt;a href=&quot;http://supermechanical.com/range&quot;&gt;Range&lt;/a&gt;, an iOS App-connected smart cooking thermometer.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;Leading up to the post-preorder launch of Range, Supermechanical asked me to help them design and build out their product page for Range both to communicate what Range does and also to illustrate just how beautifully simple and well-designed the product is. Leaning heavily on Supermechanical’s striking product photography, I chose to prominently call-out the primary features of the product in a mixture of highly graphical and clear, simple textual full-width sections. By scrolling through these sections, the user is walked through Range‘s unique attributes, varied uses and finally introduced to pricing and the opportunity to purchase.&lt;/p&gt;
@@ -32,7 +33,8 @@
 
 &lt;p&gt;&lt;strong&gt;Art Direction:&lt;/strong&gt; Joel Parr &amp;amp; John Kestner (Supermechanical)&lt;br /&gt;&lt;strong&gt;Writing:&lt;/strong&gt; John Kestner (Supermechanical)&lt;br /&gt;&lt;strong&gt;Photography:&lt;/strong&gt; David Clift-Reaves (Supermechanical)&lt;br /&gt;&lt;strong&gt;Design:&lt;/strong&gt; Joel Parr&lt;br /&gt;&lt;strong&gt;Development:&lt;/strong&gt; Joel Parr&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://supermechanical.com/range&#39; target=&#39;_blank&#39; title=&#39;Visit supermechanical.com in a new window&#39;&gt;View Range&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://supermechanical.com/range&#39; target=&#39;_blank&#39; title=&#39;Visit supermechanical.com in a new window&#39;&gt;View Range&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/supermechanical</link>
                 <guid>http://joelparr.com/work/supermechanical</guid>
                 <pubDate>2014-02-21T00:00:00-06:00</pubDate>
@@ -40,13 +42,15 @@
 
         <item>
                 <title>Relaunch</title>
-                <description>&lt;p&gt;I’ll keep this short and sweet. In other words, start the exact opposite of how I mean to go on. Consider this a welcome message, an introduction to a relaunch, or just a collection of words that most people will never read. It’s my umpteenth attempt to start blogging in the last 15 years, but it’s got to start somewhere.&lt;/p&gt;
+                <description>
+&lt;p&gt;I’ll keep this short and sweet. In other words, start the exact opposite of how I mean to go on. Consider this a welcome message, an introduction to a relaunch, or just a collection of words that most people will never read. It’s my umpteenth attempt to start blogging in the last 15 years, but it’s got to start somewhere.&lt;/p&gt;
 
 &lt;p&gt;So welcome to my relaunched website. I hope you’re here because you’re looking at my work with a view to contracting me to make something awesome for you. Or maybe you just clicked through from my Twitter or Instagram bio.&lt;/p&gt;
 
 &lt;p&gt;Either way, what I’m going to attempt to assemble here are some thoughts on the web, design, photography and maybe revisit the idea of using this space as a repository for all the interesting bits-and-bobs I find on the Internet. The stuff that currently gets shoved away in my Instapaper ghetto (previously in Delicious, before that in bookmarks menus, etc etc).&lt;/p&gt;
 
-&lt;p&gt;What I don’t imagine this will be is particularly frequently updated. But if I manage to form a positive writing habit, I’m not going to complain. In any case, welcome to my site.&lt;/p&gt;</description>
+&lt;p&gt;What I don’t imagine this will be is particularly frequently updated. But if I manage to form a positive writing habit, I’m not going to complain. In any case, welcome to my site.&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/words/relaunch</link>
                 <guid>http://joelparr.com/words/relaunch</guid>
                 <pubDate>2014-02-10T00:00:00-06:00</pubDate>
@@ -54,7 +58,8 @@
 
         <item>
                 <title>Jarritos</title>
-                <description>&lt;p&gt;Jarritos’ previous .com brand site was much-lauded for its immersive, discovery-based interface and its quirky use of playful illustrations, sound and video to convey their “We’re Not From Here” message. However, the Flash-based site and extremely basic mobile companion were conceived before the era of the iPad, HTML5 and the widespread adoption of the mobile web.&lt;/p&gt;
+                <description>
+&lt;p&gt;Jarritos’ previous .com brand site was much-lauded for its immersive, discovery-based interface and its quirky use of playful illustrations, sound and video to convey their “We’re Not From Here” message. However, the Flash-based site and extremely basic mobile companion were conceived before the era of the iPad, HTML5 and the widespread adoption of the mobile web.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;Rather than take the existing Flash site and retrofit it for an iOS-friendly world, we chose to rebuild the site from the ground up, making heavy use of Jarritos’ strong brand, message and street-style Day of the Dead imagery. I performed Information Architecture and User Experience duties to imagine the Jarritos story being told as a deep-scrolling experience, with the user first learning about the product range and placing their colorful glass bottles front and centre. From there, the experience includes bold, full-width videos that introduce the story of brand, a moderated gallery of user-generated photos drawn from Instagram, “Fuerte Vision” video content channels, a moderated selection of user-generated Vine videos and an interactive store locator with HTML5 location-sensing.&lt;/p&gt;
@@ -81,7 +86,8 @@
 &lt;p&gt;&lt;strong&gt;AAF Addys 2014:&lt;/strong&gt; &lt;a href=&quot;http://www.austinaddys.com/&quot;&gt;Gold—Websites, Consumer Products&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;SiteInspire:&lt;/strong&gt; &lt;a href=&quot;http://www.siteinspire.com/websites/3836-jarritos&quot;&gt;Showcased&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://jarritos.com&#39; target=&#39;_blank&#39; title=&#39;Visit jarritos.com in a new window&#39;&gt;
-	Visit Jarritos.com&lt;/a&gt;&lt;/p&gt;</description>
+	Visit Jarritos.com&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/jarritos</link>
                 <guid>http://joelparr.com/work/jarritos</guid>
                 <pubDate>2014-02-07T00:00:00-06:00</pubDate>
@@ -89,7 +95,8 @@
 
         <item>
                 <title>Wanderless</title>
-                <description>&lt;p&gt;A collaboration between &lt;a href=&quot;http://alexroka.com&quot; title=&quot;Alex Roka’s website&quot;&gt;Alex Roka&lt;/a&gt;, Anthony DeGennaro and myself, Wanderless was launched as modern, curated event calendar focusing primarily on Austin’s music scene, but also covering the rapidly expanding culinary movement as well as the arts, cultural events and film.&lt;/p&gt;
+                <description>
+&lt;p&gt;A collaboration between &lt;a href=&quot;http://alexroka.com&quot; title=&quot;Alex Roka’s website&quot;&gt;Alex Roka&lt;/a&gt;, Anthony DeGennaro and myself, Wanderless was launched as modern, curated event calendar focusing primarily on Austin’s music scene, but also covering the rapidly expanding culinary movement as well as the arts, cultural events and film.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;Alex handled branding and visual design duties whilst he and I collborated on UX issues and elements of interaction design. I built both the back and front-end of the site, using Microsoft .NET MVC3 to interface with the Osmek cloud CMS that powers the authoring and publishing of events on the back-end. The front-end is hand-rolled JavaScript and CSS3 and is fully responsive and optimized for smartphone, tablet and desktop breakpoints, providing a fully mobile-friendly event calendar for use on-the-go.&lt;/p&gt;
@@ -107,7 +114,8 @@
 
 &lt;p&gt;&lt;strong&gt;Art Direction:&lt;/strong&gt; Alex Roka&lt;br /&gt;&lt;strong&gt;Design:&lt;/strong&gt; Alex Roka&lt;br /&gt;&lt;strong&gt;Product:&lt;/strong&gt; Anthony DeGennaro&lt;br /&gt;&lt;strong&gt;Development:&lt;/strong&gt; Joel Parr&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://wanderless.com&#39; target=&#39;_blank&#39; title=&#39;Visit wanderless.com in a new window&#39;&gt;Visit Wanderless&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://wanderless.com&#39; target=&#39;_blank&#39; title=&#39;Visit wanderless.com in a new window&#39;&gt;Visit Wanderless&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/wanderless</link>
                 <guid>http://joelparr.com/work/wanderless</guid>
                 <pubDate>2014-02-06T00:00:00-06:00</pubDate>
@@ -115,7 +123,8 @@
 
         <item>
                 <title>GSD&amp;M Presents</title>
-                <description>&lt;p&gt;&lt;a href=&quot;http://www.gsdm.com/&quot;&gt;GSDM&lt;/a&gt; is known within Austin not just as an advertising agency, but also as a host of numerous events, shows and parties in town, both during and outside of the SXSW conference/festival. To reflect the role that the agency plays in the local creative community, GSD&amp;amp;M Presents showcases some of the amazing &lt;a href=&quot;http://www.gsdmpresents.com/cat/art-and-design&quot;&gt;artists&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/music&quot;&gt;musicians&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/art-and-design&quot;&gt;designers&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/food-and-drink&quot;&gt;chefs&lt;/a&gt; and other &lt;a href=&quot;http://www.gsdmpresents.com/&quot;&gt;creatives&lt;/a&gt; that call Austin home.&lt;/p&gt;
+                <description>
+&lt;p&gt;&lt;a href=&quot;http://www.gsdm.com/&quot;&gt;GSDM&lt;/a&gt; is known within Austin not just as an advertising agency, but also as a host of numerous events, shows and parties in town, both during and outside of the SXSW conference/festival. To reflect the role that the agency plays in the local creative community, GSD&amp;amp;M Presents showcases some of the amazing &lt;a href=&quot;http://www.gsdmpresents.com/cat/art-and-design&quot;&gt;artists&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/music&quot;&gt;musicians&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/art-and-design&quot;&gt;designers&lt;/a&gt;, &lt;a href=&quot;http://www.gsdmpresents.com/cat/food-and-drink&quot;&gt;chefs&lt;/a&gt; and other &lt;a href=&quot;http://www.gsdmpresents.com/&quot;&gt;creatives&lt;/a&gt; that call Austin home.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;Developed alongside &lt;a href=&#39;http://www.mariadamato.com/&#39;&gt;Maria D’Amato&lt;/a&gt; as designer, we put together a highly-content driven but graphically rich site featuring blog-post style written content; interviews with bands, industry figures and local creatives; musical performance videos from artists and bands based both in and out of Austin; photography hooked in from social platforms such as Instagram; and audio playlists embedded from Soundcloud and Spotify featuring highlights from the many music festivals for which Austin is renowned. Acting as less of an advertising industry-specific site and more of a reflection of the agency’s culture and community links, GSD&amp;amp;M Presents is a great complement to GSD&amp;amp;M’s online presence.&lt;/p&gt;
@@ -138,7 +147,8 @@
 &lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; &lt;a href=&quot;http://www.gsdm.com/&quot;&gt;GSD&amp;amp;M&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Design&lt;/strong&gt; &lt;a href=&quot;http://www.mariadamato.com/&quot;&gt;Maria D’Amato&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Development:&lt;/strong&gt; Joel Parr&lt;br /&gt;&lt;strong&gt;Producer:&lt;/strong&gt; &lt;a href=&quot;http://mrosedigital.tumblr.com/&quot;&gt;Michael Rose&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://gsdmpresents.com&#39; target=&#39;_blank&#39; title=&#39;Visit gsdmpresents.com in a new window&#39;&gt;
-	Visit GSD&amp;amp;M Presents&lt;/a&gt;&lt;/p&gt;</description>
+	Visit GSD&amp;amp;M Presents&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/gsdmpresents</link>
                 <guid>http://joelparr.com/work/gsdmpresents</guid>
                 <pubDate>2014-02-05T00:00:00-06:00</pubDate>
@@ -146,7 +156,8 @@
 
         <item>
                 <title>Joel Parr</title>
-                <description>&lt;p&gt;If you’re reading this, you’re experiencing my site first-hand. Which means there isn’t a lot to say other than to run down some design and technical notes for those of you interested pixel-shifting.&lt;/p&gt;
+                <description>
+&lt;p&gt;If you’re reading this, you’re experiencing my site first-hand. Which means there isn’t a lot to say other than to run down some design and technical notes for those of you interested pixel-shifting.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;The latest reincarnation of my personal site is a flat site, with hand-coded HTML and SASS/CSS with a little bit of JavaScript thrown in to lazy-load some of the heavily compressed but still heavyweight screenshot images. The site is generated using &lt;a href=&#39;http://jekyllrb.com&#39;&gt;Jekyll&lt;/a&gt;, the Ruby static site generator. The development environment and build process is handled by a combination of Bundle and Guard, which I have found to be a hell of a lot more straightforward than Node-based compatriots such as Grunt. I’m sure there&amp;#39;s a pretty big tradeoff in terms of power and flexibility but this is a static, personal site so I‘m taking a simple route—‘nuff said.&lt;/p&gt;
@@ -156,7 +167,8 @@
 
 &lt;p&gt;The whole site is of course responsive across screen sizes, uses REMs for sizing and purposely doesn’t even think about the time-sink of faffing and asset production around “Retina images”. Every graphic is sized between 1.5x and 2x and delivered to every device, just like the web intended. I don’t think the world really needs many more social sharing or Like buttons either, so I‘ve kept all that stuff to a minimum too.&lt;/p&gt;
 
-&lt;p&gt;I hope you’re enjoying poking around the site. If you spot anything wrong, broken or just plain bad, &lt;a href=&quot;http://twitter.com/joelp&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;I hope you’re enjoying poking around the site. If you spot anything wrong, broken or just plain bad, &lt;a href=&quot;http://twitter.com/joelp&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/joelparr</link>
                 <guid>http://joelparr.com/work/joelparr</guid>
                 <pubDate>2014-02-03T00:00:00-06:00</pubDate>
@@ -164,7 +176,8 @@
 
         <item>
                 <title>SX&shy;Surrogates</title>
-                <description>&lt;p&gt;If you’ve always wanted to attend SXSWi, but haven’t been able to find the time, money or energy to attend in person, for a few years GSD&amp;amp;M offered you the chance to follow along remotely by tuning into updates from the SXSurrogates—a group of employees attending the meleé so you don’t have to.&lt;/p&gt;
+                <description>
+&lt;p&gt;If you’ve always wanted to attend SXSWi, but haven’t been able to find the time, money or energy to attend in person, for a few years GSD&amp;amp;M offered you the chance to follow along remotely by tuning into updates from the SXSurrogates—a group of employees attending the meleé so you don’t have to.&lt;/p&gt;
 &lt;div class=&#39;multi-col&#39;&gt;
 
 &lt;p&gt;For the 2012 iteration of the über-conference, the SXSurrogates site was completely redesigned and rebuilt with a bunch of extra functionality. Rather than just subscribing to a large feed of blog post updates from the surrogates, users could this time build their own custom team of surrogates based on their interest areas. Utilising Twitter for social login and user account creation, users can browse and filter surrogates before adding them to their personal “team”, with the on-site blog and Twitter feeds then filtered to their selected authors. In addition, a Twitter list is created for the user within their Twitter account itself, meaning that they can follow their surrogates&amp;#39; updates from within their favourite Twitter client or on twitter.com.&lt;/p&gt;
@@ -180,7 +193,8 @@
 
 &lt;h4 id=&quot;credits&quot;&gt;Credits&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; &lt;a href=&quot;http://www.gsdm.com/&quot;&gt;GSD&amp;amp;M&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Design:&lt;/strong&gt; &lt;a href=&quot;http://gerrenlamson.com&quot;&gt;Gerren Lamson&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;IA &amp;amp; UX:&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/softwaremono&quot;&gt;Oscar Llarena&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Producer:&lt;/strong&gt; &lt;a href=&quot;http://www.linkedin.com/pub/teresa-villasenor/4/9a4/a54&quot;&gt;Teresa Villaseñor&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Development (Front-end):&lt;/strong&gt; Joel Parr&lt;br /&gt;&lt;strong&gt;Development (Back-end):&lt;/strong&gt; &lt;a href=&quot;http://www.linkedin.com/in/kimberlyfaulkner&quot;&gt;Kim Faulkner&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; &lt;a href=&quot;http://www.gsdm.com/&quot;&gt;GSD&amp;amp;M&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Design:&lt;/strong&gt; &lt;a href=&quot;http://gerrenlamson.com&quot;&gt;Gerren Lamson&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;IA &amp;amp; UX:&lt;/strong&gt; &lt;a href=&quot;https://twitter.com/softwaremono&quot;&gt;Oscar Llarena&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Producer:&lt;/strong&gt; &lt;a href=&quot;http://www.linkedin.com/pub/teresa-villasenor/4/9a4/a54&quot;&gt;Teresa Villaseñor&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Development (Front-end):&lt;/strong&gt; Joel Parr&lt;br /&gt;&lt;strong&gt;Development (Back-end):&lt;/strong&gt; &lt;a href=&quot;http://www.linkedin.com/in/kimberlyfaulkner&quot;&gt;Kim Faulkner&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/sxsurrogates</link>
                 <guid>http://joelparr.com/work/sxsurrogates</guid>
                 <pubDate>2014-02-02T00:00:00-06:00</pubDate>
@@ -188,7 +202,8 @@
 
         <item>
                 <title>Guestfolio</title>
-                <description>&lt;p&gt;Guestfolio is a GRM (Guest Relationship Management) company based in Canada that provides a number of different online services to the hotel industry. These include automated emails, surveys and newsletters along with their core product, an online, mobile-friendly concierge service for guests and an accompanying dashboard for hoteliers to manage the experience.&lt;/p&gt;
+                <description>
+&lt;p&gt;Guestfolio is a GRM (Guest Relationship Management) company based in Canada that provides a number of different online services to the hotel industry. These include automated emails, surveys and newsletters along with their core product, an online, mobile-friendly concierge service for guests and an accompanying dashboard for hoteliers to manage the experience.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of Guestolfio admin dashboard on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/guestfolio-ss-monitor.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
@@ -196,7 +211,8 @@
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of Guestolfio admin dashboard on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/guestfolio-ss-monitor2.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The resulting design features “skinnable” elements that allow the data heavy website to be tailored to the individual hotel brands for each of Guestfolio’s clients. Featuring a clean, text-driven UI with graphical elements such as data-driven maps and graphs, my design concepts were taken on by Guestolfio’s in-house development team and applied to the core of one of their primary product offerings.&lt;/p&gt;</description>
+&lt;p&gt;The resulting design features “skinnable” elements that allow the data heavy website to be tailored to the individual hotel brands for each of Guestfolio’s clients. Featuring a clean, text-driven UI with graphical elements such as data-driven maps and graphs, my design concepts were taken on by Guestolfio’s in-house development team and applied to the core of one of their primary product offerings.&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/guestfolio</link>
                 <guid>http://joelparr.com/work/guestfolio</guid>
                 <pubDate>2014-01-31T00:00:00-06:00</pubDate>
@@ -204,7 +220,8 @@
 
         <item>
                 <title>Message Horizon</title>
-                <description>&lt;p&gt;Message Horizon is an email marketing service based in the UK with an incredibly simple pricing structure. They approached me before launch looking for a range of design services, including logo/branding, website design for their marketing site and the user interface for the web application administration dashboard that is the core product’s primary interface.&lt;/p&gt;
+                <description>
+&lt;p&gt;Message Horizon is an email marketing service based in the UK with an incredibly simple pricing structure. They approached me before launch looking for a range of design services, including logo/branding, website design for their marketing site and the user interface for the web application administration dashboard that is the core product’s primary interface.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of Message Horizon marketing site on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/messagehorizon-ss-monitor.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
@@ -218,7 +235,8 @@
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of Message Horizon web app on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/messagehorizon-ss-monitor2.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The web interface of Message Horizon’s core product—a web-administered email marketing tool—is defined by a simple, text-driven interface, dictated by the functionality and data-driven nature of the product. The design was realised in-house by Message Horizon’s developers and, as with the marketing site, was designed and built before the widespread adoption of responsive web design techniques.&lt;/p&gt;</description>
+&lt;p&gt;The web interface of Message Horizon’s core product—a web-administered email marketing tool—is defined by a simple, text-driven interface, dictated by the functionality and data-driven nature of the product. The design was realised in-house by Message Horizon’s developers and, as with the marketing site, was designed and built before the widespread adoption of responsive web design techniques.&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/messagehorizon</link>
                 <guid>http://joelparr.com/work/messagehorizon</guid>
                 <pubDate>2014-01-30T00:00:00-06:00</pubDate>
@@ -226,7 +244,8 @@
 
         <item>
                 <title>NHS</title>
-                <description>&lt;p&gt;The National Health Service (NHS) South Central Patient Safety Federation’s goal is to improve patient safety in all healthcare organisations in the South Central area of England. A key part of these efforts is the provision of patient safety resources such as fall prevention and needle safety via the web.&lt;/p&gt;
+                <description>
+&lt;p&gt;The National Health Service (NHS) South Central Patient Safety Federation’s goal is to improve patient safety in all healthcare organisations in the South Central area of England. A key part of these efforts is the provision of patient safety resources such as fall prevention and needle safety via the web.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of NHS South Central site on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/nhs-ss-monitor.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
@@ -240,7 +259,8 @@
 
 &lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; &lt;a href=&quot;http://ridgeway.net/&quot;&gt;Ridgeway&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Design&lt;/strong&gt; Joel Parr&lt;br /&gt;&lt;strong&gt;Development (Back-end):&lt;/strong&gt; Ridgeway&lt;br /&gt;&lt;strong&gt;Development (Front-end):&lt;/strong&gt; Joel Parr&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://www.patientsafetyfederation.nhs.uk/&#39; target=&#39;_blank&#39; title=&#39;Visit patientsafetyfederation.nhs.uk in a new window&#39;&gt;Visit NHS South Central&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://www.patientsafetyfederation.nhs.uk/&#39; target=&#39;_blank&#39; title=&#39;Visit patientsafetyfederation.nhs.uk in a new window&#39;&gt;Visit NHS South Central&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/nhs</link>
                 <guid>http://joelparr.com/work/nhs</guid>
                 <pubDate>2014-01-29T00:00:00-06:00</pubDate>
@@ -248,7 +268,8 @@
 
         <item>
                 <title>Mira</title>
-                <description>&lt;p&gt;Mira are world leaders in vehicle engineering and testing. After undertaking a major rebranding project with &lt;a href=&quot;http://www.designreligion.co.uk/&quot;&gt;Design Religion&lt;/a&gt; and approaching &lt;a href=&quot;http://ridgeway.net/&quot;&gt;Ridgeway&lt;/a&gt; to redesign and reengineer their web presence from the ground up, I was involved with building out the user interface for the main Mira website.&lt;/p&gt;
+                <description>
+&lt;p&gt;Mira are world leaders in vehicle engineering and testing. After undertaking a major rebranding project with &lt;a href=&quot;http://www.designreligion.co.uk/&quot;&gt;Design Religion&lt;/a&gt; and approaching &lt;a href=&quot;http://ridgeway.net/&quot;&gt;Ridgeway&lt;/a&gt; to redesign and reengineer their web presence from the ground up, I was involved with building out the user interface for the main Mira website.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&#39;Screenshot of Mira site on large screen&#39; class=&#39;ll&#39; data-src=&#39;/assets/img/work/mira-ss-monitor.png&#39; src=&#39;/assets/img/work/ss-monitor-ph.png&#39; /&gt;&lt;/p&gt;
 
@@ -262,7 +283,8 @@
 
 &lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; &lt;a href=&quot;http://ridgeway.net/&quot;&gt;Ridgeway&lt;/a&gt;&lt;br /&gt;&lt;strong&gt;Design&lt;/strong&gt; Matt Bartlett (Ridgeway)&lt;br /&gt;&lt;strong&gt;Development (Back-end):&lt;/strong&gt; Ridgeway&lt;br /&gt;&lt;strong&gt;Development (Front-end):&lt;/strong&gt; Joel Parr&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://mira.co.uk&#39; target=&#39;_blank&#39; title=&#39;Visit mira.co.uk in a new window&#39;&gt;Visit Mira&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a class=&#39;cta&#39; href=&#39;http://mira.co.uk&#39; target=&#39;_blank&#39; title=&#39;Visit mira.co.uk in a new window&#39;&gt;Visit Mira&lt;/a&gt;&lt;/p&gt;
+</description>
                 <link>http://joelparr.com/work/mira</link>
                 <guid>http://joelparr.com/work/mira</guid>
                 <pubDate>2014-01-28T00:00:00-06:00</pubDate>
