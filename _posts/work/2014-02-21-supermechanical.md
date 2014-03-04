@@ -1,7 +1,7 @@
 ---
 categories: [work]
 colors: ['#51C5BF', '#328E88']
-description: 'Supermechanical - Work by Joel Parr, UX/UI Designer and Front-end Developer in Austin, TX.'
+description: 'Supermechanical Range - Work by Joel Parr, UX/UI Designer and Front-end Developer in Austin, TX.'
 layout: post
 permalink: /work/supermechanical
 tags : [UX, UI, Front-end, Responsive]

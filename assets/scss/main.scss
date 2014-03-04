@@ -284,7 +284,7 @@ b, strong
 	@extend %section;
 
 	background-color: $tertiary;
-	@include background-image(linear-gradient($secondary 0, $tertiary 100%, transparent 100%));
+	@include background-image(linear-gradient($secondary 0, $tertiary 100%));
 	color: $type-rev;
 	@include _rem(padding-bottom, 4);
 	position: relative;
@@ -385,21 +385,89 @@ b, strong
 .text 
 {
 	font-size: 0; // Display inline-block percentage width hack
-	width: 75%;
+	width: 70%;
+
+	@include _respond-to($bp-medium)
+	{
+		width: 75%;
+	}
 
 	li 
 	{
-		display: inline;
+		@include box-sizing(border-box);
+		display: inline-block;
+		margin: 0 2.5%;
+		@include _rem(margin-bottom, 3);
+		width: 100%;
+
+		@include _respond-to($bp-medium)
+		{
+			margin-right: 2.5%;
+			margin-left: 2.5%;
+			width: 45%;
+		}
+
+		@include _respond-to($bp-large)
+		{
+			@include _rem(margin-bottom, 4);
+		}
 	}
 
 		a 
 		{
+			background: rgba(0, 0, 0, 0.05);
 			@include box-sizing(border-box);
+			color: $type-nav-active;
 			display: inline-block;
-			@include _rem(font-size, 1.75);
-			line-height: 1;
-			text-align: left;
-			width: 50%;
+			@include _font-family-headline();
+			@include _rem(font-size, 1.5);
+			letter-spacing: 0;
+			line-height: 1.2;
+			@include _rem(padding, 1.75);
+			@include _rem(padding-top, 2);
+			position: relative;
+			text-align: center;
+			vertical-align: top;
+			width: 100%;
+			z-index: 0;
+
+			&:active,
+			&:hover 
+			{
+				color: $type-link;
+
+				&:before 
+				{
+					border-right-color: $highlight;
+				}
+			}
+
+			&:before 
+			{
+				border-bottom: solid transparent;
+				border-left: solid transparent;
+				border-right: solid rgba(0, 0, 0, 0.075);
+				@include _rem(border-width, 1.875);
+				content: '';
+				display: inline-block;
+				height: 0; 
+				right: 0;
+				position: absolute;
+				@include transition (border-right-color 0.15s ease-in-out);
+				top: 0;
+				width: 0; 
+			}
+		}
+
+		.datetime
+		{
+			color: rgba(0, 0, 0, 0.33);
+			display: block;
+			@include _font-family-body();
+			@include _rem(font-size, 1.25);
+			font-weight: 700;
+			line-height: 1.4;	
+			text-transform: capitalize;
 		}
 }
 
@@ -577,7 +645,7 @@ b, strong
 
 		background-size: 100% 9%;
 		background-size: 100% 21.875rem;
-		opacity: 0.075;
+		opacity: 0.05;
 		position: absolute;
 		z-index: -1;
 	}
@@ -1085,7 +1153,7 @@ b, strong
 {
 	@extend %section;
 	background-color: $tertiary;
-	@include background-image(linear-gradient($highlight 0, $tertiary 75%, transparent 100%));
+	@include background-image(linear-gradient($highlight 0, $tertiary 75%));
 	color: $type-rev;
 	@include _rem(padding-bottom, 7);
 	position: relative;

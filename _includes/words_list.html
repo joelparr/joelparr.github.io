@@ -2,8 +2,12 @@
 {% if words_collection %}
 	<ul class="list text">
 		{% for page in words_collection %}
-			<li><a href="{{ BASE_PATH }}{{ page.url }}" title="View {{ page.title }}">
-				{{ page.title }}</a></li>
+			<li>
+				<a href="{{ BASE_PATH }}{{ page.url }}" title="View {{ page.title }}">
+					{{ page.title }}
+					<time class="datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+				</a>
+			</li>
 		{% endfor %}
 	</ul>
 {% endif %}

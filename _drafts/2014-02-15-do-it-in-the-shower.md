@@ -1,10 +1,10 @@
 ---
 categories: [words]
 layout: post
-description: 'Relaunch - joelparr.com'
-tags : [Welcome, Joel, Writing]
-title : 'Relaunch'
-abstract: 'It’s tiem to try this blogging thing again&hellip;'
+description: 'Do it in the shower - joelparr.com'
+tags : [Hack, Life, Morning, Productivity]
+title : 'Do it in the shower'
+abstract: 'Life is too short not to do everything you can while in the shower.'
 ---
 {% include JB/setup %}
 
