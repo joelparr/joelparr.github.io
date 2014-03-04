@@ -4,7 +4,7 @@
 	<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mira - Work by Joel Parr, UX/UI Designer and Front-end Developer in Austin, TX.</title>
+        <title>Get in touch with Joel Parr, UX/UI Designer and Front-end Developer in Austin, TX.</title>
         <meta name="description" content="Joel Parr makes websites for people. Design, UX, IA and Development in Austin, TX.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Joel Parr">
@@ -17,35 +17,17 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic|Montserrat:400,700" 
 			rel="stylesheet" type="text/css">
 		
-			<style media="screen" type="text/css">
-				body 
-				{ 
-					background-color: #009596;
-					background-image: -ms-linear-gradient(top, #009596 0%, #006463 80%);
-					background-image: -moz-linear-gradient(top, #009596 0%, #006463 80%);
-					background-image: -o-linear-gradient(top, #009596 0%, #006463 80%);
-					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009596), color-stop(1, #006463));
-					background-image: -webkit-linear-gradient(top, #009596 0%, #006463 80%);
-					background-image: linear-gradient(to bottom, #009596 0%, #006463 80%);
-					border-top-color: #006463; 
-				}
-			</style>
 		
-		
-		
-			
-				
-			
 		
 		
 			
 		
 	</head>
-	<!--[if lt IE 7]><body class="rev not-home lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-	<!--[if IE 7]><body class="rev not-home lt-ie10 lt-ie9 lt-ie8"><![endif]-->
-	<!--[if IE 8]><body class="rev not-home lt-ie10 lt-ie9"><![endif]-->
-	<!--[if IE 9]><body class="rev not-home lt-ie10"><![endif]-->
-	<!--[if gt IE 9]><!--><body class="rev not-home"><!--<![endif]-->
+	<!--[if lt IE 7]><body class=" not-home lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+	<!--[if IE 7]><body class=" not-home lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+	<!--[if IE 8]><body class=" not-home lt-ie10 lt-ie9"><![endif]-->
+	<!--[if IE 9]><body class=" not-home lt-ie10"><![endif]-->
+	<!--[if gt IE 9]><!--><body class=" not-home"><!--<![endif]-->
 		<header class="site-header" id="top">
 			<a class="menu icon-button" id="menu" href="#" title="Show/hide the navigation menu">Menu</a>
 			
@@ -84,7 +66,7 @@
     
       
       	
-      	<li><a href="/#contact">Contact</a></li>
+      	<li class="active"><a href="/#contact" class="active">Contact</a></li>
       	
       
     
@@ -109,67 +91,13 @@
 		</header>
 		
 			
-
-
-	
-		
-	
-
-<section class="content post rev">
-	<div class="inner">
-		<header class="content-header">
-			<h1>Mira</h1>
-			<p class="lede">A new web presence for a major rebrand in the vehicle engineering world.</p>
+<section class="content page">
+		<header class="content-header inner">
+			<h1></h1>
 			
 		</header>
 		
-			<aside class="tags">
-	    		<ul>
-	    			
-	    				<li>Front-end</li>
-	    			
-	    				<li>Interaction Design</li>
-	    			
-	    		</ul>
-			</aside>
-		
-		<div class="cms-content">
-			
-<p>Mira are world leaders in vehicle engineering and testing. After undertaking a major rebranding project with <a href="http://www.designreligion.co.uk/">Design Religion</a> and approaching <a href="http://ridgeway.net/">Ridgeway</a> to redesign and reengineer their web presence from the ground up, I was involved with building out the user interface for the main Mira website.</p>
-
-<p><img alt='Screenshot of Mira site on large screen' class='ll' data-src='/assets/img/work/mira-ss-monitor.png' src='/assets/img/work/ss-monitor-ph.png' /></p>
-
-<p>The front-end build consisted of taking Ridgeway’s visual design and blowing out the look across a wide number of different content pages. Included in this was some subtle elements of interaction design, front-end development work associated with building a dramatic, full-width homepage carousel and a bold, slide-down vertical-displacement global navigation.</p>
-
-<p><img alt='Screenshot of Mira site on large screen' class='ll' data-src='/assets/img/work/mira-ss-monitor2.png' src='/assets/img/work/ss-monitor-ph.png' /></p>
-
-<p>The back-end development was completed by Ridgeway using the KenticoCMS platform and was designed and built before the widespread adoption of responsive web design techniques.</p>
-
-<h4 id="credits">Credits</h4>
-
-<p><strong>Agency:</strong> <a href="http://ridgeway.net/">Ridgeway</a><br /><strong>Design</strong> Matt Bartlett (Ridgeway)<br /><strong>Development (Back-end):</strong> Ridgeway<br /><strong>Development (Front-end):</strong> Joel Parr</p>
-
-<p><a class='cta' href='http://mira.co.uk' target='_blank' title='Visit mira.co.uk in a new window'>Visit Mira</a></p>
-
-		</div>
-	</div>
 </section>
-<div class="sharing">
-	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-	<p>
-		<a class="action twitter" href="https://twitter.com/intent/tweet?via=joelp&amp;text=Mira%20-%20Work%20by%20Joel%20Parr,%20UX/UI%20Designer%20and%20Front-end%20Developer%20in%20Austin,%20TX.&amp;url=http://joelparr.com/work/mira">
-			Tweet <small>Discuss this on Twitter.</small>
-		</a>
-	</p>
-</div>
-
-<nav class="pagination">
-	
-		<a class="prev icon-button" href="/work/nhs" title="NHS">Previous</a>
-	
-	
-</nav>
-
 
 		
     	<footer class="site-footer" id="contact">
