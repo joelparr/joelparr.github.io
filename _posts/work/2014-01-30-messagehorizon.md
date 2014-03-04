@@ -15,14 +15,14 @@ Message Horizon is an email marketing service based in the UK with an incredibly
 <img alt="Screenshot of Message Horizon marketing site on large screen" class="ll" 
 	src="/assets/img/work/ss-monitor-ph.png" data-src="/assets/img/work/messagehorizon-ss-monitor.png" />
 
-To market the email marketing web application, I designed a clean, straightforward static site that uses a light, bright colour palette and type-driven layouts to introduce the key features and differentiators of the product. Photographic imagery is used on the homepage to introduce the key features of the product and was selected to key-in with the brandname’s “sunrise/sunset” connotations.
+To market the email marketing web application, I designed a clean, straightforward static site that uses a light, bright colour palette and type-driven layouts to introduce the key features and differentiators of the product. Photographic imagery is used on the homepage to introduce the key features of the product and was selected to key-in with the brand name’s “sunrise/sunset” connotations.
 
 The development was completed in-house and, as with the administration dashboard web application, was designed and built before responsive web design was at the forefront of web users’ minds.
 
 <img alt="Message Horizon logo on a mobile phone" class="ll" 
 	src="/assets/img/work/ss-phone-ph.png" data-src="/assets/img/work/messagehorizon-ss-phone.png" />
 
-The Message Horizon logomark, set in a bold, lowercase serif nods to the “horizon” in the product name, incorporating a planetary, sunrise motif in the two-colour fill of the characters and a playful, crescent-accented “i”.
+The Message Horizon logomark, set in bold, lowercase serif type nods to the “horizon” in the product name, incorporating a planetary, sunrise motif in the two-colour fill of the characters and a playful, crescent-accented “i”.
 
 <img alt="Screenshot of Message Horizon web app on large screen" class="ll" 
 	src="/assets/img/work/ss-monitor-ph.png" data-src="/assets/img/work/messagehorizon-ss-monitor2.png" />

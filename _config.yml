@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /words/:title 
 
-exclude: [".DS_Store", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Guardfile", ".sass-cache", "scss"]
+exclude: [".DS_Store", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Guardfile", ".sass-cache", "scss", ".gitignore"]
 pygments: true
 
 # Themes are encouraged to use these universal variables 
