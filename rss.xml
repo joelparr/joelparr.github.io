@@ -5,10 +5,32 @@
         <description>Joel Makes Websites - Joel Parr</description>
         <link>http://joelparr.com</link>
         <link>http://joelparr.com</link>
-        <lastBuildDate>2014-03-04T12:58:07-06:00</lastBuildDate>
-        <pubDate>2014-03-04T12:58:07-06:00</pubDate>
+        <lastBuildDate>2014-04-24T16:26:41-05:00</lastBuildDate>
+        <pubDate>2014-04-24T16:26:41-05:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Rockwood Ipsum</title>
+                <description>
+&lt;p&gt;The world really doesn’t need another &lt;a href=&quot;http://lipsum.com&quot;&gt;Lorem Ipsum generator&lt;/a&gt;. Designers seem to have more than enough ways of filling their comps and prototypes with realistic looking copy. However, always seeking new ways to introduce a little bit more humour into dreary, cubicle-filled days, the construction workers of the web have never been shy about creating their own filler-text generators.&lt;/p&gt;
+
+&lt;p&gt;Some personal favourites of mine are &lt;a href=&quot;http://www.deloreanipsum.com&quot;&gt;Delorean Ipsum&lt;/a&gt;, &lt;a href=&quot;http://hipsum.co&quot;&gt;Hipster Ipsum&lt;/a&gt; and &lt;a href=&quot;http://www.lebowskiipsum.com&quot;&gt;Lebowski Ipsum&lt;/a&gt;. But these are all far too broad in their appeal. To be truly cool your mockup text needs to be understood by only a select few friends. Which brings me onto the point of this post; introducing &lt;a href=&quot;http://rockwoodipsum.us&quot;&gt;Rockwood Ipsum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you know &lt;a href=&quot;http://stephenrockwood.com&quot;&gt;Stephen Rockwood&lt;/a&gt; you’ll understand the unique and entertaining vocabulary that the man posesses (not to mention his many talents). Which is why, when you have a friend who can claim a dialect of his own, you owe it to both mutual friends and designers worldwide to immortalize this unique tongue in good, old-fashioned HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&#39;The man behind Rockwood Ipsum&#39; class=&#39;bordered&#39; src=&#39;/assets/img/words/rockwoodipsum-stephen.jpg&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I ask that you pause the next time someone misguidedly asks you to design something without any real purpose or prior thought to content strategy, step back from the Lipsum, Hipsum and Lebowskipsum and give &lt;a href=&quot;http://rockwoodipsum.us&quot;&gt;Ripsum&lt;/a&gt; a whirl. Riiight? Tight.&lt;/p&gt;
+
+&lt;h4 id=&quot;postscript&quot;&gt;Postscript&lt;/h4&gt;
+
+&lt;p&gt;A couple of minor nerd notes: The vocabulary is stored as JSON and is basically strung together using a modified version of the awesome &lt;a href=&quot;https://github.com/f/loremjs&quot;&gt;LoremJS&lt;/a&gt;. The “Make your own” slider is powered by the equally wonderul &lt;a href=&quot;http://skidding.github.io/dragdealer&quot;&gt;Dragdealer&lt;/a&gt; and the rest of everything is just [SASS] CSS, HTML5 and plain-old jQuery-less Javascript. It’s a simple, single-page website, that’s really all there is to say.&lt;/p&gt;
+</description>
+                <link>http://joelparr.com/words/rockwoodipsum</link>
+                <guid>http://joelparr.com/words/rockwoodipsum</guid>
+                <pubDate>2014-04-23T00:00:00-05:00</pubDate>
+        </item>
 
         <item>
                 <title>Super&shy;mechanical</title>

@@ -7,6 +7,7 @@ http://joelparr.com/atom.xml
 http://joelparr.com/rss.xml
 http://joelparr.com/sitemap.txt
 
+http://joelparr.com/words/rockwoodipsum
 http://joelparr.com/work/supermechanical
 http://joelparr.com/words/relaunch
 http://joelparr.com/work/jarritos
