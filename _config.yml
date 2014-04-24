@@ -5,6 +5,8 @@ permalink: /words/:title
 exclude: [".DS_Store", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Guardfile", ".sass-cache", "scss"]
 pygments: true
 
+destination: ../joelparr.com
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #

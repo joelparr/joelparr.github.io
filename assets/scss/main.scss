@@ -881,21 +881,21 @@ b, strong
 	h2
 	{
 		@include _rem(font-size, 2.75);
-		@include _rem(margin-top, 2);
+		@include _rem(margin-top, 3);
 		@include _rem(margin-bottom, 1);
 	}
 
 	h3
 	{
 		@include _rem(font-size, 2.25);
-		@include _rem(margin-top, 2);
+		@include _rem(margin-top, 3);
 		@include _rem(margin-bottom, 1);
 	}
 
 	h4
 	{
 		@include _rem(font-size, 1.75);
-		@include _rem(margin-top, 2);
+		@include _rem(margin-top, 3);
 		@include _rem(margin-bottom, 1);
 	}
 
@@ -910,6 +910,15 @@ b, strong
 			>video 
 			{
 				@include _breakout();
+			}
+
+			>.bordered
+			{
+				border: solid #f0f0f0;
+				@include _rem(border-width, 1);
+				box-sizing: border-box;
+				@include _rem(margin-top, 1);
+				@include _rem(margin-bottom, 1);
 			}
 		}
 	}
