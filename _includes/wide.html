@@ -1,0 +1,12 @@
+<section class="content post wide">
+	<div class="inner">
+		<header class="content-header">
+			<h1>{{ page.title }}</h1>
+			<p class="lede">{{ page.abstract }}</p>
+			<time class="datetime" datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+		</header>
+		<div class="cms-content">
+			{{ content }}
+		</div>
+	</div>
+</section>
