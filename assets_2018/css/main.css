@@ -31,10 +31,12 @@
   --color__highlight_am_180: #F51F2D;
 
   --page__gutter: 2rem;
-  --page__max-width: 72em;
-  --page__max-width_box: 56em;
-  --page__max-width_box-lede: 28em;
-  --page__max-width_text: 36em;
+  --page__max-width_images: 85rem;
+  --page__max-width_box: 56rem;
+  --page__max-width_box-lede: 28rem;
+  --page__max-width_text: 36rem;
+
+  --logo__width: 2.25rem;
 
   --section__gutter_y: 5rem;
   --section__rhythm_y: 4rem;
@@ -227,7 +229,7 @@ a:hover .svg__fill-stops
   left: var(--page__gutter);
 }
 
-@media (min-width: 85em)
+@media (min-width: 50em)
 {
   .header
   {
@@ -248,7 +250,7 @@ a:hover .svg__fill-stops
     .header__logomark-svg
     {
       display: block;
-      height: 3rem;
+      width: var(--logo__width);
     }
 
   .header__logotype
@@ -259,7 +261,7 @@ a:hover .svg__fill-stops
     margin-bottom: 0;
   }
 
-  @media (min-width: 85em)
+  @media (min-width: 50em)
   {
     .header__logotype
     {
@@ -466,6 +468,17 @@ a:hover .svg__fill-stops
   width: 100%;
 }
 
+@media (min-width: 50em)
+{
+  .case
+  {
+    --case__gutter_x: calc((var(--page__gutter) * 2) + var(--logo__width));
+
+    padding-right: var(--case__gutter_x);
+    padding-left: var(--case__gutter_x);
+  }
+}
+
   /* Intro and Outro Boxes */
 
   .case__box
@@ -577,6 +590,17 @@ a:hover .svg__fill-stops
         justify-content: center;
       }
 
+        .case__image
+        {
+          box-shadow: 0px 0px 1.25rem 1px rgba(0, 0, 0, 0.075);
+
+          display: block;
+
+          max-height: 48vh;
+        }
+
+        /* Styles container around portrait (mobile) images */
+
         .case__image-container_portrait
         {
           background: var(--color__primary_am_92);
@@ -589,15 +613,6 @@ a:hover .svg__fill-stops
 
           width: 100%;
         }
-
-          .case__image
-          {
-            box-shadow: 0px 0px 1.25rem 1px rgba(0, 0, 0, 0.075);
-
-            display: block;
-
-            max-height: 48vh;
-          }
 
           .case__image-container_portrait .case__image
           {
@@ -625,20 +640,8 @@ a:hover .svg__fill-stops
         margin-right: 0;
         margin-left: 0;
 
-        max-width: var(--page__max-width);
+        max-width: var(--page__max-width_images);
       }
-
-        .case__image-container_portrait
-        {
-          background: transparent;
-
-          display: block;
-
-          padding-top: 0;
-          padding-bottom: 0;
-
-          width: auto;
-        }
 
         .case__imageset
         {
@@ -675,12 +678,25 @@ a:hover .svg__fill-stops
             max-height: none;
           }
 
-          /* Reset portrait image drop shadows to match other images */
+          /* Resets styles of container around portrait (mobile) images and the images themselves */
 
-          .case__image-container_portrait .case__image
+          .case__image-container_portrait
           {
-            box-shadow: 0px 0px 1.25rem 1px rgba(0, 0, 0, 0.075);
+            background: transparent;
+
+            display: block;
+
+            padding-top: 0;
+            padding-bottom: 0;
+
+            max-width: 50%;
+            width: auto;
           }
+
+            .case__image-container_portrait .case__image
+            {
+              box-shadow: 0px 0px 1.25rem 1px rgba(0, 0, 0, 0.075);
+            }
 
           /*Set bottom margin of all images in set except last*/
 
@@ -698,14 +714,14 @@ a:hover .svg__fill-stops
           margin-top: 2rem;
         }
 
-          /*Alternately shrinks odd/even or even/odd images across sets*/
+          /*Alternately shrinks odd/even or even/odd images (not portrait images) across sets*/
 
           .case__images:nth-of-type(odd) .case__imageset:nth-of-type(odd) .case__image:not(:only-child):nth-of-type(even),
           .case__images:nth-of-type(odd) .case__imageset:nth-of-type(even) .case__image:not(:only-child):nth-of-type(odd),
           .case__images:nth-of-type(even) .case__imageset:nth-of-type(odd) .case__image:not(:only-child):nth-of-type(odd),
           .case__images:nth-of-type(even) .case__imageset:nth-of-type(even) .case__image:not(:only-child):nth-of-type(even)
           {
-            max-width: 80%;
+            max-width: 85%;
           }
     }
 
