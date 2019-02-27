@@ -31,6 +31,10 @@
   --color__highlight_am_180: #F51F2D;
 
   --page__gutter: 2rem;
+  --box__gutter: 2rem;
+  --callout-box__gutter: 2rem;
+  --features__gutter: 1.5rem;
+
   --page__max-width_images: 85rem;
   --page__max-width_box: 56rem;
   --page__max-width_box-lede: 28rem;
@@ -41,11 +45,8 @@
   --section__gutter_y: 5rem;
   --section__rhythm_y: 4rem;
 
-  --box__gutter: 2rem;
-  --callout-box__gutter: 2rem;
-
   --type__size_base: 16px;
-  --type__letter-spacing_base: 0.015em;
+  --type__letter-spacing_base: 0.005em;
   --type__line-height_base: 2rem;
 
   --type__size_heading-1: 1.375rem;
@@ -97,7 +98,7 @@ body
 
 /* Type */
 
-h1, h2, h3, h4, h5, h6, p
+h1, h2, h3, h4, h5, h6, p, li
 {
   font-size: 1rem;
   font-weight: 400;
@@ -132,7 +133,7 @@ img:not([src])
 
 /* Links & Buttons */
 
-a, a:visited, a:active
+a, a:visited
 {
   border-bottom: 1px solid var(--color__primary_am_92);
   color: var(--color__primary_am_92);
@@ -219,19 +220,6 @@ a, a:visited, a:active
 .emoji-period:before
 {
   content: '\A0\A0';
-}
-
-/* SVG */
-
-.svg__fill-paths
-{
-  stroke: currentColor;
-}
-
-.svg__fill-stops,
-a:hover .svg__fill-stops
-{
-  stop-color: currentColor;
 }
 
 /* Header */
@@ -592,7 +580,8 @@ a:hover .svg__fill-stops
 
         text-align: center;
 
-        padding: 2rem 1rem;
+        margin: 0;
+        padding: var(--features__gutter) 1rem;
       }
 
       .case__box-features > li:not(:last-child)
