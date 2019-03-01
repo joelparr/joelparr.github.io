@@ -219,6 +219,11 @@ a, a:visited
   max-width: calc(var(--page__max-width_text) + 10rem);
 }
 
+.callout__box
+{
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 50em)
 {
   .callout__box
@@ -409,16 +414,29 @@ a, a:visited
   width: 100%;
 }
 
+.simple_standalone
+{
+  margin-top: 6rem;
+}
+
+@media (min-width: 50em)
+{
+  .simple_standalone
+  {
+    margin-top: 0;
+  }
+}
+
 .simple_full_always
 {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media (min-width: 50em)
 {
   .simple_full
   {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 
