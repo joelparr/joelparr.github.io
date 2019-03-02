@@ -909,3 +909,13 @@ a, a:visited
   {
     color: var(--color__base-mid);
   }
+
+  .invert_foreground .svg__fill-stops
+  {
+    stop-color: var(--color__tint_am_180);
+  }
+
+  .invert_foreground .svg__fill-paths
+  {
+    stroke: var(--color__tint_am_180);
+  }
