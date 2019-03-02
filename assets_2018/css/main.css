@@ -156,6 +156,30 @@ a, a:visited
     color: var(--color__base-mid);
   }
 
+/* SVG */
+
+.svg__fill-stops
+{
+  stop-color: var(--color__primary_am_92);
+  transition: all 0.15s ease-in-out;
+}
+
+  a:hover .svg__fill-stops
+  {
+    stop-color: var(--color__highlight_am_180);
+  }
+
+.svg__fill-paths
+{
+  stroke: var(--color__primary_am_92);
+  transition: all 0.15s ease-in-out;
+}
+
+  a:hover .svg__fill-paths
+  {
+    stroke: var(--color__highlight_am_180);
+  }
+
 /* Bulleted Lists */
 
 .list
